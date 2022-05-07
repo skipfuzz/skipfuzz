@@ -120,11 +120,10 @@ def main():
                     sys.settrace(trace)
                     print('[script server] executing...')
                     results = {} # freefuzz assumes the presence of a `results` variable and writes to it
-                    # print(lines)
+                    
                     exec(lines)
                     print('[script server] done executing...')
-                    # print('fin succ execution')
-                    # sys.settrace(None)
+                    
                     sys.settrace(prev_tracefunc)
 
                     if len(results) > 0: # if `results` was modified, we are running tests from freefuzz
@@ -133,23 +132,20 @@ def main():
 
                 except Exception as e:
                     tb = traceback.format_exc()
-                    # print('[server]', tb)
-                    # print('[server]', type(e))
-                    # print('[server]', e)
+                    
                     try:
                         return_value =  type(e).__name__ + '. message:' + str(e) + '\t' + tb
                     except TypeError:
                         return_value = '\t' + tb
-                    print('[server] sent back', return_value.encode('utf-8'))
+                    
                     conn.sendall(return_value.encode('utf-8'))
                     send_back_coverage(conn)
                     continue
                 except BaseException as be:
                     tb = traceback.format_exc()
-                    # print('[server]', tb)
-                    # print('[server]', be)
+                    
                     return_value =  type(be).__name__ + '. message:' + str(be) + '\t' + tb
-                    print('[server] sent back', return_value.encode('utf-8'))
+                    
                     conn.sendall(return_value.encode('utf-8'))
                     send_back_coverage(conn)
                     continue

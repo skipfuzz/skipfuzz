@@ -73,7 +73,6 @@ def create_one_call(API_name, functions_to_sigs,
                 selected_way_ids[arg_id] = random.sample(list(values_store_by_id.keys()), 1)[0]
                 argument_values[arg_id] = values_store_by_id[selected_way_ids[arg_id]]
 
-                print('choosing input from out of the input partitions (due to target set = -1) arg_id=', arg_id, 'way=', selected_way_ids[arg_id])
                 continue
 
             matching_ways_id = invariant_sets[target_invariant_set_for_arg[arg_id]]
@@ -86,12 +85,10 @@ def create_one_call(API_name, functions_to_sigs,
 
             # for each combination of input categories, we only select at most one input from a category.
             sampled_matching_way = random.sample(matching_ways_id, 1)[0]
-            print('selected way:', sampled_matching_way, ' for arg_id', arg_id)
 
             selected_way_ids[arg_id] = sampled_matching_way
             argument_values[arg_id] = values_store_by_id[str(sampled_matching_way)]
 
-    print('selected_way_ids', selected_way_ids)
     test_file_name = 'synthesized_cov_test_' + rand_ident + '_' + API_name + '_' + str(test_num) + '.py'
 
     full_code = ''
@@ -229,7 +226,6 @@ def get_rules(target_function, functions_to_sigs,
         target_args = range(len(function_sig.items()))
         restrictions[target_function] = {}
     else:
-        print('total seeds', len(seeds[target_function]))
         selected_seed_mapping = random.choice(seeds[target_function])
         restrictions[target_function] = {}
         for seed_mapping_i, seed_mapping_value in enumerate(selected_seed_mapping):
@@ -238,13 +234,11 @@ def get_rules(target_function, functions_to_sigs,
         # pick random arg to transform
         if len(selected_seed_mapping) >0:
             target_args = [random.randint(0, len(selected_seed_mapping) - 1)]
-            print('using seed', restrictions[target_function], 'but changing', target_args)
             restrictions[target_function][target_args[0]] = set()
 
             if not isinstance(target_args, list):
                 raise Exception('wrong type')
         else:
-            print('selected_seed_mapping', selected_seed_mapping, '| but could not pick an arg')
             target_args = range(len(function_sig.items()))
 
     loop_i = 0
@@ -256,13 +250,10 @@ def get_rules(target_function, functions_to_sigs,
             target_invariant_set_index = random.randint(-1, len(selectables) - 1)
             target_invariant_set = selectables[target_invariant_set_index] if target_invariant_set_index != -1 else -1
             
-            print('targetting invariant set for i=',i, target_invariant_set, 'from #', len(selectables) )
             target_invariant_set_for_arg[i] = target_invariant_set
 
         loop_i += 1
-        print('loop_i', loop_i)
         if loop_i >= MAX_LOOP:
-            print('breaking out of loop, removing restrictions. Pick random')
             for i in target_args:
                 target_invariant_set_for_arg[i] = -1
             break
@@ -458,9 +449,7 @@ def create_one_test_and_run(target_function, all_functions,
         functions_to_imports[target_function],
         restrictions, test_i)
     if not succeeded:
-        print('removing', target_function)
         all_functions.remove(target_function)
-        print(len(all_functions), 'APIs remain')
         return False
 
     if target_function not in func_to_already_checked_invs:

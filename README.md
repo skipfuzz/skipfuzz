@@ -7,6 +7,9 @@ It contains:
 2. scripts for running the tool
 
 
+## Target API functions
+
+The API functions used in our experiments can be found in `target_api.txt`. For thr larger run, the API functions are in `target_api.txt.more`.
 
 ## Running the scripts
 
@@ -23,7 +26,7 @@ It contains:
 7. run `python find_property_categories.py`
 8. run `python find_nonsubsuming_categories.py`
 
-## Fuzz
+### Fuzz
 
 9. Run `python fuzzer.py <epsilon>`, e.g. `python fuzzer.py 0.5`
 

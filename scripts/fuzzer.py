@@ -59,14 +59,12 @@ def create_one_call(API_name, functions_to_sigs,
             
             if arg_id in restrictions[API_name] and len(restrictions[API_name][arg_id]) > 0:
                 print('using restricted values for arg', arg_id, restrictions[API_name][arg_id])
-                # no choice but to pick
                 selected_restricted_id = random.choice(list(restrictions[API_name][arg_id]))
 
                 selected_way_ids[arg_id] = selected_restricted_id
 
                 argument_values[arg_id] = values_store_by_id[str(selected_way_ids[arg_id])]
 
-                # print('removeing', arg_id, ' from restrictions, which was ', restrictions[API_name][arg_id])
                 restrictions[API_name][arg_id] = set()
                 continue
 
@@ -75,19 +73,18 @@ def create_one_call(API_name, functions_to_sigs,
                 selected_way_ids[arg_id] = random.sample(list(values_store_by_id.keys()), 1)[0]
                 argument_values[arg_id] = values_store_by_id[selected_way_ids[arg_id]]
 
-                print('choosing random input (due to target set = -1) arg_id=', arg_id, 'way=', selected_way_ids[arg_id])
+                print('choosing input from out of the input partitions (due to target set = -1) arg_id=', arg_id, 'way=', selected_way_ids[arg_id])
                 continue
-
 
             matching_ways_id = invariant_sets[target_invariant_set_for_arg[arg_id]]
 
             if len(matching_ways_id) == 0:
-                selected_way_ids[arg_id] = random.sample(list(values_store_by_id.keys()), 1)[0]
+                
+                selected_way_ids[arg_id] = random.sample(list(values_store_by_id.keys()), 1)[0]  
                 argument_values[arg_id] = values_store_by_id[selected_way_ids[arg_id]]
-
-                print('choosing a random input (due to inability to find matching value) arg_id=', arg_id, 'val=', argument_values[arg_id])
                 continue
 
+            # for each combination of input categories, we only select at most one input from a category.
             sampled_matching_way = random.sample(matching_ways_id, 1)[0]
             print('selected way:', sampled_matching_way, ' for arg_id', arg_id)
 
@@ -137,10 +134,8 @@ def create_one_call(API_name, functions_to_sigs,
                     outfile.write('v_' + str(i) + ' = ' + line + '\n')
 
                     full_code += '\t' + 'v_' + str(i) + ' = ' + line + '\n'
-                    # print('writing: ', 'v_' + str(i) + ' = ' + line + '\n')
                     written_first_line = True
                 else:
-                    # print('writing:', line + '\n')
                     outfile.write(line + '\n')
                     full_code += line + '\n'
 
@@ -211,6 +206,7 @@ def get_invariant_sets():
     return invariants_sets
 
 
+MAX_LOOP = 5
 
 def get_rules(target_function, functions_to_sigs,
               invariant_sets, func_to_already_checked_invs, seeds, ):
@@ -259,12 +255,13 @@ def get_rules(target_function, functions_to_sigs,
             selectables = tuple(selected_invariant_sets)
             target_invariant_set_index = random.randint(-1, len(selectables) - 1)
             target_invariant_set = selectables[target_invariant_set_index] if target_invariant_set_index != -1 else -1
+            
             print('targetting invariant set for i=',i, target_invariant_set, 'from #', len(selectables) )
             target_invariant_set_for_arg[i] = target_invariant_set
 
         loop_i += 1
         print('loop_i', loop_i)
-        if loop_i >= 2:
+        if loop_i >= MAX_LOOP:
             print('breaking out of loop, removing restrictions. Pick random')
             for i in target_args:
                 target_invariant_set_for_arg[i] = -1
@@ -387,28 +384,6 @@ def find_all_known_functions():
 rootdir = os.getcwd()
 
 
-def get_error_description(stderr_string):
-    after_traceback = stderr_string.split('Traceback ')[1]
-    description = []
-    for line in after_traceback.split('  File '):
-        if ' line ' not in line:
-            continue
-        line_num = line.split(' line ')[1].split(',')[0]
-        function_name = line.split(', in  ')[1].split()[0]
-        description.append((line_num, function_name))
-
-    error_type = stderr_string.split('Error:')[0].split()[-1]
-    related_args = []
-    if '`' in stderr_string.split('Error:')[1]:
-        for item in stderr_string.split('Error:')[1].split('`')[1::2]:
-            related_args.append(item)
-    if "'" in stderr_string.split('Error:')[1]:
-        for item in stderr_string.split('Error:')[1].split("'")[1::2]:
-            related_args.append(item)
-    description.append((error_type, tuple(related_args)))
-
-    return tuple(description)
-
 def run_script_server(prev_p = None, delay=15, func=None, port = 65433):
     def wait_for_proc_end(prev_p,delay_bef, delay_aft, func):
         poll = prev_p.poll()
@@ -514,11 +489,6 @@ def create_one_test_and_run(target_function, all_functions,
 
             end_time = time.time()
             time_elapsed = (end_time - start_time)
-            # if len(data) < 200:
-            #     print('[test builder] after receiving, current message:', data, 'recv len', len(data_raw))
-            # else:
-            #     print('[test builder] after receiving, current message too long,  recv len', len(data_raw))
-            # print('randstr', ''.join(random.choices(string.ascii_uppercase + string.digits, k=3)), time_elapsed)
 
             if time_elapsed > 30 and len(data_raw) == 0:
                 print('too much time elasped', time_elapsed)
@@ -549,8 +519,6 @@ def create_one_test_and_run(target_function, all_functions,
         data = 'Server down!'
         raise e
 
-    # print("[test builder] Received", data)
-
     all_outfile.write(full_code)
 
     data = data.split('rann')[0]
@@ -572,10 +540,6 @@ def create_one_test_and_run(target_function, all_functions,
         shutil.copy(test_file_name, copied_fn)
         is_problem = True
 
-        # if we have a NameError, drop the API
-        # print('removing', target_function)
-        # all_functions.remove(target_function)
-        # print(len(all_functions), 'APIs remain')
 
     elif data != 0 and data == 'Server down!':
         detected_crash(test_file_name, test_i)
@@ -584,7 +548,6 @@ def create_one_test_and_run(target_function, all_functions,
             return None
         else:
             pass
-            # run_script_server()
         is_crash = True
 
     else:
@@ -594,12 +557,6 @@ def create_one_test_and_run(target_function, all_functions,
         else:
             if data != 0 and 'Error:' in data:
                 is_py_error = True
-                # try:
-                #     error_description = get_error_description(data)
-                #     error_outcome_identifier = ','.join(error_description)
-                # except Exception as e:
-                #     print('found err', e, 'from', data)
-                #     # raise Exception('err on ' + data)
 
             else:
                 print('unknown', 'data=', data[:200])
@@ -642,8 +599,6 @@ def main():
     invariant_sets = get_invariant_sets()
 
     values_store_by_id, values_store_by_type = read_typedb_cached_file_with_id()
-    # values_store = read_typedb_cached_file()
-    # values_store['NoneType'] = ['None']
 
 
     invariant_type_comparison_direction = {}
@@ -669,8 +624,6 @@ def main():
         if not os.path.exists('ran_tests'):
             os.mkdir('ran_tests')
 
-        # target_functions = random.sample(all_functions, 1000)
-        # target_functions.insert(0, 'tf.math.bincount(')
 
         if os.path.exists(target_api_file):
             target_functions = []
@@ -690,12 +643,6 @@ def main():
             args_to_run = []
             selected_target_functions = target_functions
 
-
-                # create_tests_for_one_target_function(all_function_sigs, all_functions, func_to_already_checked_invs,
-                #                                      function_arg_to_index, functions_to_imports, invariant_sets,
-                #                                      invariant_type_comparison_direction, restrictions, run_outcomes,
-                #                                      target_function, usable_types, values_store_by_id,
-                #                                      values_store_by_type)
             args_to_run.append((all_function_sigs, all_functions, func_to_already_checked_invs,
                                 function_arg_to_index, functions_to_imports, invariant_sets,
                                 invariant_type_comparison_direction, seeds,
@@ -708,7 +655,6 @@ def main():
         pass
     except Exception as e:
         print('caught exception', e)
-        # print('should be flushed')
         raise e
 
     print('run metadata')
@@ -810,9 +756,6 @@ def create_tests_for_one_target_function_1(all_function_sigs, all_functions, fun
             prev_coverage_num = coverage_num
 
             run_outcomes[target_function].append(outcome)
-            # print('length of run_outcomes', len(run_outcomes[target_function]))
-            # if len(run_outcomes[target_function]) > 0:
-            # print('last outcome was', run_outcomes[target_function])
 
             if len(run_outcomes[target_function]) > NUM_TESTS_PER_FUNC:
                 print('early breaking since len > NUM_TESTS_PER_FUNC', NUM_TESTS_PER_FUNC)

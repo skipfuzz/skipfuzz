@@ -39,12 +39,16 @@ The core functionability of SkipFuzz is the fuzzer:
 Examples of the output of "Prepare inputs" can be found in the `inputs/` directory of this repository.
 The categories are in `undominated_invariant_sets.txt`.
 
-Therefore, if desired, a docker container can be set up using the inputs from the input directory to fuzz tensorflow:
+## Setup Docker
+
+if desired, a docker container can be set up using the inputs from the input directory to fuzz tensorflow:
 
 From the docker_setup directory,
 1. run `patch` on the `tensorflow.diff` and a tensorflow repository (in a `original_tensorflow` directory)
 2. build a docker image based on the Dockerfile (assumed to be named `skipfuzz`)
 3. `docker run -v /home/<user>/<directory containing the tensorflow directory>/:/workspace  --gpus all  --name skipfuzz -it skipfuzz /bin/bash`
 4. In the docker container,`pip install coverage scipy`
-5. Now, `python fuzzer.py 0.5` can be run
+5. assuming that the current working directory is in `/workspace/tensorflow/tensorflow/`, move the files in the `input` directory from this repository to the current working directory. Likewise, the scripts + target_api.txt + all_functions.txt can be moved there.
+6. Now,  the scripts can be run. e.g.`python fuzzer.py 0.5` if the inputs are already transferred over.
+
 

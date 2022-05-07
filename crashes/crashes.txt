@@ -6,7 +6,7 @@ tf.strings.unsorted_segment_join
 tf.raw_ops.MutexLock
 tf.ragged.constant
 tf.experimental.numpy.array
-tf.compat.v1.signal.rfft2d and rfft3d
+tf.compat.v1.signal.rfft2d, tf.compat.v1.signal.rfft3d
 tf.raw_ops.TensorSummaryV2, 
 tf.raw_ops.QueueIsClosedV2
 summary.flush
@@ -18,5 +18,11 @@ tf.compat.v1.nn.depthwise_conv2d_native_backprop_filter
 tf.raw_ops.SobolSampleOp
 tf.raw_ops.StagePeekOp
 tf.raw_ops.TensorListReserve
-
+tf.raw_ops.OutfeedDequeueTuple	
+tf.raw_ops.IteratorGetNextSync	
+tf.raw_ops.PriorityQueueV2
+tf.raw_ops.SetSize
+tf.compat.v1.qr
+tf.raw_ops.BatchSvd
+tf.compat.v1.linalg.triangular_solve
 

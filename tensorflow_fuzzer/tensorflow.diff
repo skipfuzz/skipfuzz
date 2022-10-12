@@ -1,0 +1,24 @@
+diff --git a/tensorflow/compiler/tests/xla_test.py b/tensorflow/compiler/tests/xla_test.py
+index 7bd0d236f0f..cc1be686325 100644
+--- a/tensorflow/compiler/tests/xla_test.py
++++ b/tensorflow/compiler/tests/xla_test.py
+@@ -101,8 +101,8 @@ class XLATestCase(test.TestCase):
+ 
+   def __init__(self, method_name='runTest'):
+     super(XLATestCase, self).__init__(method_name)
+-    if 'XLA' in FLAGS.test_device:
+-      context.context().enable_xla_devices()
++#    if 'XLA' in FLAGS.test_device:
++#      context.context().enable_xla_devices()
+ 
+     # Check if the mlir bridge has been explicitly enabled or disabled. If
+     # is_mlir_bridge_enabled() returns None, the user did not explictly enable
+@@ -122,7 +122,7 @@ class XLATestCase(test.TestCase):
+ 
+     self._all_tf_types = set([
+         dtypes.as_dtype(types_pb2.DataType.Value(name))
+-        for name in FLAGS.types.split(',')
++        for name in "DT_HALF,DT_FLOAT,DT_DOUBLE,DT_UINT8,DT_QUINT8,DT_INT8,DT_QINT8,DT_INT32,DT_QINT32,DT_INT64,DT_BOOL,DT_COMPLEX64,DT_COMPLEX128".split(',')
+     ])
+     self.int_tf_types = set([
+         dtype for dtype in self._all_tf_types if dtype.is_integer

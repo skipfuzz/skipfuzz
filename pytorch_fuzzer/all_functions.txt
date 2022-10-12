@@ -1,0 +1,7217 @@
+torch.Tensor.nanquantile
+arg0:Any
+ dim:Any
+ keepdim:Any
+ interpolation:Any
+=========
+torch.erfinv
+arg0:Any
+ out:Any
+=========
+torch.special.psi
+arg0:Any
+ out:Any
+=========
+torch.profiler.tensorboard_trace_handler
+dir_name:Any
+worker_name:Any
+use_gzip:Any
+=========
+torch.onnx.register_custom_op_symbolic
+symbolic_name:Any
+symbolic_fn:Any
+opset_version:Any
+=========
+torch.nn.functional.leaky_relu
+input:Any
+negative_slope:Any
+inplace:Any
+=========
+torch.cummin
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.nn.BatchNorm1d
+num_features:Any
+eps:Any
+momentum:Any
+affine:Any
+track_running_stats:Any
+device:Any
+dtype:Any
+=========
+torch.Tensor.retain_grad
+=========
+torch.nn.ZeroPad2d
+padding:Any
+=========
+torch.random.get_rng_state
+=========
+torch.Tensor.tensor_split
+arg0:Any
+ dim:Any
+=========
+torch.Tensor.all
+dim:Any
+ keepdim:Any
+=========
+torch.utils.dlpack.to_dlpack
+arg0:Any
+=========
+torch.Tensor.pinverse
+=========
+torch.nn.utils.parameters_to_vector
+parameters:Any
+=========
+torch.nn.ReflectionPad2d
+padding:Any
+=========
+torch.unique_consecutive
+args:Any
+kwargs:Any
+=========
+torch.Tensor.t
+=========
+torch.distributed.elastic.metrics.configure
+=========
+torch.roll
+arg0:Any
+arg1:Any
+ dims:Any
+=========
+torch.argsort
+arg0:Any
+ dim:Any
+ descending:Any
+ stable:Any
+=========
+torch.utils.data.Subset
+args:Any
+kwds:Any
+=========
+torch.distributed.elastic.rendezvous.RendezvousParameters
+=========
+torch.optim.lr_scheduler.MultiStepLR
+optimizer:Any
+milestones:Any
+gamma:Any
+last_epoch:Any
+verbose:Any
+=========
+torch.nn.functional.feature_alpha_dropout
+input:Any
+p:Any
+training:Any
+inplace:Any
+=========
+torch.sigmoid
+arg0:Any
+ out:Any
+=========
+torch.Tensor.acosh_
+=========
+torch.nn.DataParallel
+module:Any
+device_ids:Any
+output_device:Any
+dim:Any
+=========
+torch.distributions.kl.register_kl
+type_p:Any
+type_q:Any
+=========
+torch.Tensor.diag
+diagonal:Any
+=========
+torch.trapz
+arg0:Any
+arg1:Any
+ dim:Any
+=========
+torch.distributed.elastic.rendezvous.dynamic_rendezvous.RendezvousTimeout
+=========
+torch.distributed.elastic.events.api.Event
+=========
+torch.nn.ReLU6
+inplace:Any
+=========
+torch.nn.utils.prune.l1_unstructured
+=========
+torch.overrides.is_tensor_method_or_property
+func:Any
+=========
+torch.nn.AvgPool1d
+kernel_size:Any
+stride:Any
+padding:Any
+ceil_mode:Any
+count_include_pad:Any
+=========
+torch.optim.lr_scheduler.OneCycleLR
+optimizer:Any
+max_lr:Any
+total_steps:Any
+epochs:Any
+steps_per_epoch:Any
+pct_start:Any
+anneal_strategy:Any
+cycle_momentum:Any
+base_momentum:Any
+max_momentum:Any
+div_factor:Any
+final_div_factor:Any
+three_phase:Any
+last_epoch:Any
+verbose:Any
+=========
+torch.nn.InstanceNorm1d
+num_features:Any
+eps:Any
+momentum:Any
+affine:Any
+track_running_stats:Any
+device:Any
+dtype:Any
+=========
+torch.jit.wait
+future:Any
+=========
+torch.distributed.elastic.agent.server.WorkerState
+=========
+torch.nn.Softmax
+dim:Any
+=========
+torch.Tensor.narrow_copy
+arg0:Any
+arg1:Any
+arg2:Any
+=========
+torch.Tensor.nonzero
+=========
+torch.sparse_csr_tensor
+arg0:Any
+arg1:Any
+arg2:Any
+ size:Any
+ dtype:Any
+ device:Any
+ requires_grad:Any
+=========
+torch.cosh
+arg0:Any
+ out:Any
+=========
+torch.nn.functional.adaptive_avg_pool1d
+arg0:Any
+arg1:Any
+=========
+torch.fft.rfftfreq
+arg0:Any
+ d:Any
+ out:Any
+ dtype:Any
+ layout:Any
+ device:Any
+ requires_grad:Any
+=========
+torch.Tensor.register_hook
+hook:Any
+=========
+torch.Tensor.type_as
+arg0:Any
+=========
+torch.distributions.transformed_distribution.TransformedDistribution
+base_distribution:Any
+transforms:Any
+validate_args:Any
+=========
+torch.Tensor.bitwise_xor_
+=========
+torch.nn.functional.binary_cross_entropy
+input:Any
+target:Any
+weight:Any
+size_average:Any
+reduce:Any
+reduction:Any
+=========
+torch.nn.functional.adaptive_max_pool3d
+args:Any
+kwargs:Any
+=========
+torch.nn.functional.conv1d
+arg0:Any
+arg1:Any
+ bias:Any
+ stride:Any
+ padding:Any
+ dilation:Any
+ groups:Any
+=========
+torch.Tensor.square
+=========
+torch.distributions.multivariate_normal.MultivariateNormal
+loc:Any
+covariance_matrix:Any
+precision_matrix:Any
+scale_tril:Any
+validate_args:Any
+=========
+torch.Tensor.clamp
+min:Any
+ max:Any
+=========
+torch.Tensor.argmax
+dim:Any
+ keepdim:Any
+=========
+torch.nn.functional.embedding
+input:Any
+weight:Any
+padding_idx:Any
+max_norm:Any
+norm_type:Any
+scale_grad_by_freq:Any
+sparse:Any
+=========
+torch.Tensor.deg2rad
+=========
+torch.Tensor.isposinf
+=========
+torch.chunk
+arg0:Any
+arg1:Any
+ dim:Any
+=========
+torch.Tensor.lt_
+arg0:Any
+=========
+torch.fix
+arg0:Any
+ out:Any
+=========
+torch.Tensor.logaddexp
+arg0:Any
+=========
+torch.Tensor.isclose
+arg0:Any
+ rtol:Any
+ atol:Any
+ equal_nan:Any
+=========
+torch.eye
+arg0:Any
+ m:Any
+ out:Any
+ dtype:Any
+ layout:Any
+ device:Any
+ requires_grad:Any
+=========
+torch.nn.functional.adaptive_avg_pool3d
+input:Any
+output_size:Any
+=========
+torctorch.repeat_interleaveh.count_nonzero
+=========
+torch.Tensor.masked_scatter
+arg0:Any
+arg1:Any
+=========
+torch.nn.RNNCell
+input_size:Any
+hidden_size:Any
+bias:Any
+nonlinearity:Any
+device:Any
+dtype:Any
+=========
+torch.nn.ConstantPad3d
+padding:Any
+value:Any
+=========
+torch.fake_quantize_per_channel_affine
+arg0:Any
+arg1:Any
+arg2:Any
+arg3:Any
+arg4:Any
+=========
+torch.distributions.studentT.StudentT
+df:Any
+loc:Any
+scale:Any
+validate_args:Any
+=========
+torch.floor_divide
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.utils.data.TensorDataset
+args:Any
+kwds:Any
+=========
+torch.range
+start:Any
+arg1:Any
+ step:Any
+ out:Any
+ dtype:Any
+ layout:Any
+ device:Any
+ requires_grad:Any
+=========
+torch.fft.fft
+arg0:Any
+ n:Any
+ dim:Any
+ norm:Any
+ out:Any
+=========
+torch.nn.SELU
+inplace:Any
+=========
+torch.jit.freeze
+mod:Any
+preserved_attrs:Any
+optimize_numerics:Any
+=========
+torch.Tensor.retains_grad
+=========
+torch.nn.Dropout
+p:Any
+inplace:Any
+=========
+torch.Tensor.unique
+sorted:Any
+return_inverse:Any
+return_counts:Any
+dim:Any
+=========
+torch.Tensor.cpu
+memory_format:Any
+=========
+torch.Tensor.addcdiv
+arg0:Any
+arg1:Any
+ value:Any
+=========
+torch.Tensor.tanh
+=========
+torch.Tensor.as_strided
+arg0:Any
+arg1:Any
+ storage_offset:Any
+=========
+torch.Tensor.requires_grad
+=========
+torch.nn.Conv3d
+in_channels:Any
+out_channels:Any
+kernel_size:Any
+stride:Any
+padding:Any
+dilation:Any
+groups:Any
+bias:Any
+padding_mode:Any
+device:Any
+dtype:Any
+=========
+torch.cumprod
+arg0:Any
+arg1:Any
+ dtype:Any
+ out:Any
+=========
+torch.nn.ConvTranspose2d
+in_channels:Any
+out_channels:Any
+kernel_size:Any
+stride:Any
+padding:Any
+output_padding:Any
+groups:Any
+bias:Any
+dilation:Any
+padding_mode:Any
+device:Any
+dtype:Any
+=========
+torch.utils.cpp_extension.CppExtension
+=========
+torch.Tensor.erfc
+=========
+torch.nn.Softplus
+beta:Any
+threshold:Any
+=========
+torch.randperm
+arg0:Any
+ generator:Any
+ out:Any
+ dtype:Any
+layout:Any
+ device:Any
+ requires_grad:Any
+ pin_memory:Any
+=========
+torch.QUInt8Storage
+args:Any
+wrap_storage:Any
+dtype:Any
+device:Any
+=========
+torch.rot90
+arg0:Any
+arg1:Any
+arg2:Any
+=========
+torch.nn.ConstantPad1d
+padding:Any
+value:Any
+=========
+torch.multiply
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.nn.GroupNorm
+num_groups:Any
+num_channels:Any
+eps:Any
+affine:Any
+device:Any
+dtype:Any
+=========
+torch.distributions.beta.Beta
+concentration1:Any
+concentration0:Any
+validate_args:Any
+=========
+torch.Tensor.logical_not_
+=========
+torch.Tensor.hsplit
+arg0:Any
+=========
+torch.round
+arg0:Any
+ decimals:Any
+ out:Any
+=========
+torch.special.ndtr
+arg0:Any
+ out:Any
+=========
+torch.nn.FeatureAlphaDropout
+p:Any
+inplace:Any
+=========
+torch.Tensor.baddbmm
+arg0:Any
+arg1:Any
+ beta:Any
+ alpha:Any
+=========
+torch.Tensor.addcmul_
+arg0:Any
+arg1:Any
+ value:Any
+=========
+torch.Tensor.clip
+min:Any
+ max:Any
+=========
+torch.nn.MaxUnpool3d
+kernel_size:Any
+stride:Any
+padding:Any
+=========
+torch.onnx.select_model_mode_for_export
+model:Any
+mode:Any
+=========
+torch.Tensor.atan
+=========
+torch.Tensor.cumprod
+arg0:Any
+ dtype:Any
+=========
+torch.distributed.is_available
+=========
+torch.Tensor.subtract
+arg0:Any
+ alpha:Any
+=========
+torch.profiler.ProfilerActivity
+=========
+torch.distributed.elastic.rendezvous.etcd_rendezvous.EtcdRendezvousHandler
+=========
+torch.nn.MaxPool3d
+kernel_size:Any
+stride:Any
+padding:Any
+dilation:Any
+return_indices:Any
+ceil_mode:Any
+=========
+torch.gradient
+arg0:Any
+ spacing:Any
+ dim:Any
+ edge_order:Any
+=========
+torch.nn.AvgPool3d
+kernel_size:Any
+stride:Any
+padding:Any
+ceil_mode:Any
+count_include_pad:Any
+divisor_override:Any
+=========
+torch.nn.init.orthogonal_
+tensor:Any
+gain:Any
+=========
+torch.nn.functional.hinge_embedding_loss
+input:Any
+target:Any
+margin:Any
+size_average:Any
+reduce:Any
+reduction:Any
+=========
+torch.onnx.export_to_pretty_string
+model:Any
+args:Any
+export_params:Any
+verbose:Any
+training:Any
+input_names:Any
+output_names:Any
+operator_export_type:Any
+export_type:Any
+google_printer:Any
+opset_version:Any
+keep_initializers_as_inputs:Any
+custom_opsets:Any
+add_node_names:Any
+do_constant_folding:Any
+dynamic_axes:Any
+=========
+torch.linalg.householder_product
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.Tensor.multiply
+arg0:Any
+=========
+torch.deg2rad
+arg0:Any
+ out:Any
+=========
+torch.optim.lr_scheduler.CyclicLR
+optimizer:Any
+base_lr:Any
+max_lr:Any
+step_size_up:Any
+step_size_down:Any
+mode:Any
+gamma:Any
+scale_fn:Any
+scale_mode:Any
+cycle_momentum:Any
+base_momentum:Any
+max_momentum:Any
+last_epoch:Any
+verbose:Any
+=========
+torch.Tensor.index_add_
+arg0:Any
+arg1:Any
+arg2:Any
+ alpha:Any
+=========
+torch.min
+arg0:Any
+=========
+torch.Tensor.ndim
+=========
+torch.nn.LazyConv2d
+out_channels:Any
+kernel_size:Any
+stride:Any
+padding:Any
+dilation:Any
+groups:Any
+bias:Any
+padding_mode:Any
+device:Any
+dtype:Any
+=========
+torch.fx.replace_pattern
+gm:Any
+pattern:Any
+replacement:Any
+=========
+torch.Tensor.expand_as
+arg0:Any
+=========
+torch.distributed.elastic.multiprocessing.api.SubprocessContext
+=========
+torch.hub.get_dir
+=========
+torch.as_tensor
+arg0:Any
+ dtype:Any
+ device:Any
+=========
+torch.Tensor.renorm_
+arg0:Any
+arg1:Any
+arg2:Any
+=========
+torch.Tensor.aminmax
+ dim:Any
+ keepdim:Any
+=========
+torch.Tensor.copy_
+arg0:Any
+ non_blocking:Any
+=========
+torch.nn.MultiMarginLoss
+p:Any
+margin:Any
+weight:Any
+size_average:Any
+reduce:Any
+reduction:Any
+=========
+torch.distributed.Backend
+name:Any
+=========
+torch.Tensor.dequantize
+=========
+torch.nn.LazyInstanceNorm2d
+eps:Any
+momentum:Any
+affine:Any
+track_running_stats:Any
+device:Any
+dtype:Any
+=========
+torch.Tensor.signbit
+=========
+torch.Tensor.asin_
+=========
+torch.bitwise_right_shift
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.Tensor.min
+dim:Any
+ keepdim:Any
+=========
+torch.nanmean
+arg0:Any
+ dim:Any
+ keepdim:Any
+ dtype:Any
+ out:Any
+=========
+torch.distributed.reduce_multigpu
+tensor_list:Any
+dst:Any
+op:Any
+group:Any
+async_op:Any
+dst_tensor:Any
+=========
+torch.arccosh
+arg0:Any
+ out:Any
+=========
+torch.Tensor.addmv
+arg0:Any
+arg1:Any
+ beta:Any
+ alpha:Any
+=========
+torch.profiler.ProfilerAction
+value:Any
+names:Any
+module:Any
+qualname:Any
+type:Any
+start:Any
+=========
+torch.utils.cpp_extension.load_inline
+=========
+torch.from_numpy
+arg0:Any
+=========
+torch.distributions.transforms.Transform
+cache_size:Any
+=========
+torch.vander
+arg0:Any
+ N:Any
+ increasing:Any
+=========
+torch.nn.ELU
+alpha:Any
+inplace:Any
+=========
+torch.Tensor.argmin
+dim:Any
+ keepdim:Any
+=========
+torch.set_default_tensor_type
+t:Any
+=========
+torch.nn.functional.fold
+input:Any
+output_size:Any
+kernel_size:Any
+dilation:Any
+padding:Any
+stride:Any
+=========
+torch.Tensor.triangular_solve
+arg0:Any
+ upper:Any
+ transpose:Any
+ unitriangular:Any
+=========
+torch.nn.Bilinear
+in1_features:Any
+in2_features:Any
+out_features:Any
+bias:Any
+device:Any
+dtype:Any
+=========
+torch.orgqr
+arg0:Any
+arg1:Any
+=========
+torch.dequantize
+arg0:Any
+=========
+torch.nn.functional.cosine_similarity
+arg0:Any
+arg1:Any
+ dim:Any
+ eps:Any
+=========
+torch.Tensor.flipud
+=========
+torch.seed
+=========
+torch.distributions.kl.kl_divergence
+p:Any
+q:Any
+=========
+torch.nn.functional.conv3d
+arg0:Any
+arg1:Any
+ bias:Any
+ stride:Any
+ padding:Any
+ dilation:Any
+ groups:Any
+=========
+torch.Tensor.exponential_
+lambd:Any
+ generator:Any
+=========
+torch.Tensor.nan_to_num
+nan:Any
+ posinf:Any
+ neginf:Any
+=========
+torch.Tensor.cos_
+=========
+torch.distributed.all_gather
+tensor_list:Any
+tensor:Any
+group:Any
+async_op:Any
+=========
+torch.Tensor.addmm_
+arg0:Any
+arg1:Any
+ beta:Any
+ alpha:Any
+=========
+torch.distributed.elastic.agent.server.ElasticAgent
+=========
+torch.special.erf
+arg0:Any
+ out:Any
+=========
+torch.nn.Softmin
+dim:Any
+=========
+torch.nn.utils.parametrize.is_parametrized
+module:Any
+tensor_name:Any
+=========
+torch.split
+tensor:Any
+split_size_or_sections:Any
+dim:Any
+=========
+torch.allclose
+arg0:Any
+arg1:Any
+ rtol:Any
+ atol:Any
+ equal_nan:Any
+=========
+torch.Tensor.char
+memory_format:Any
+=========
+torch.optim.Adagrad
+params:Any
+lr:Any
+lr_decay:Any
+weight_decay:Any
+initial_accumulator_value:Any
+eps:Any
+foreach:Any
+maximize:Any
+=========
+torch.trapezoid
+arg0:Any
+ x:Any
+ dx:Any
+ dim:Any
+=========
+torch.zeros
+arg0:Any
+ out:Any
+ dtype:Any
+ layout:Any
+ device:Any
+ requires_grad:Any
+=========
+torch.nn.LazyBatchNorm1d
+eps:Any
+momentum:Any
+affine:Any
+track_running_stats:Any
+device:Any
+dtype:Any
+=========
+torch.inference_mode
+mode:Any
+=========
+torch.Tensor.item
+=========
+torch.blackman_window
+arg0:Any
+ periodic:Any
+ dtype:Any
+ layout:Any
+ device:Any
+ requires_grad:Any
+=========
+torch.bitwise_left_shift
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.take_along_dim
+arg0:Any
+arg1:Any
+arg2:Any
+ out:Any
+=========
+torch.isfinite
+arg0:Any
+=========
+torch.Tensor.acos
+=========
+torch.Tensor.numel
+=========
+torch.Tensor.lu_solve
+arg0:Any
+arg1:Any
+=========
+torch.distributed.elastic.timer.LocalTimerServer
+=========
+torch.lobpcg
+A:Any
+k:Any
+B:Any
+X:Any
+n:Any
+iK:Any
+niter:Any
+tol:Any
+largest:Any
+method:Any
+tracker:Any
+ortho_iparams:Any
+ortho_fparams:Any
+ortho_bparams:Any
+=========
+torch.QInt8Storage
+args:Any
+wrap_storage:Any
+dtype:Any
+device:Any
+=========
+torch.empty_like
+arg0:Any
+ dtype:Any
+ layout:Any
+ device:Any
+ requires_grad:Any
+ memory_format:Any
+=========
+torch.distributions.dirichlet.Dirichlet
+concentration:Any
+validate_args:Any
+=========
+torch.square
+arg0:Any
+ out:Any
+=========
+torch.Tensor.exp
+=========
+torch.randn
+arg0:Any
+ out:Any
+ dtype:Any
+ layout:Any
+ device:Any
+ requires_grad:Any
+=========
+torch.Tensor.scatter
+arg0:Any
+arg1:Any
+arg2:Any
+=========
+torch.Tensor.max
+dim:Any
+ keepdim:Any
+=========
+torch.Tensor.histc
+bins:Any
+ min:Any
+ max:Any
+=========
+torch.Tensor.copysign_
+arg0:Any
+=========
+torch.Tensor.view
+arg0:Any
+=========
+torch.addmv
+arg0:Any
+arg1:Any
+arg2:Any
+ beta:Any
+ alpha:Any
+ out:Any
+=========
+torch.complex
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.load
+f:Any
+map_location:Any
+pickle_module:Any
+pickle_load_args:Any
+=========
+torch.Tensor.nanmedian
+dim:Any
+ keepdim:Any
+=========
+torch.nn.ReplicationPad1d
+padding:Any
+=========
+torch.nn.functional.softsign
+input:Any
+=========
+torch.logaddexp2
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.nn.MultiLabelMarginLoss
+size_average:Any
+reduce:Any
+reduction:Any
+=========
+torch.log
+arg0:Any
+ out:Any
+=========
+torch.nn.init.xavier_uniform_
+tensor:Any
+gain:Any
+=========
+torch.nn.ModuleDict
+modules:Any
+=========
+torch.distributed.get_rank
+group:Any
+=========
+torch.smm
+arg0:Any
+arg1:Any
+=========
+torch.hub.list
+github:Any
+force_reload:Any
+skip_validation:Any
+trust_repo:Any
+=========
+torch.random.initial_seed
+=========
+torch.nn.functional.pdist
+arg0:Any
+ p:Any
+=========
+torch.Tensor.logaddexp2
+arg0:Any
+=========
+torch.nn.PoissonNLLLoss
+log_input:Any
+full:Any
+size_average:Any
+eps:Any
+reduce:Any
+reduction:Any
+=========
+torch.special.xlogy
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.use_deterministic_algorithms
+mode:Any
+warn_only:Any
+=========
+torch.Tensor.multinomial
+arg0:Any
+ replacement:Any
+ generator:Any
+=========
+torch.random.set_rng_state
+new_state:Any
+=========
+torch.amax
+arg0:Any
+arg1:Any
+ keepdim:Any
+ out:Any
+=========
+torch.Tensor.indices
+=========
+torch.nn.Hardshrink
+lambd:Any
+=========
+torch.lu_unpack
+arg0:Any
+arg1:Any
+ unpack_data:Any
+ unpack_pivots:Any
+ out:Any
+=========
+torch.Tensor.masked_scatter_
+arg0:Any
+arg1:Any
+=========
+torch.Tensor.clamp_
+min:Any
+ max:Any
+=========
+torch.logcumsumexp
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.distributed.elastic.timer.configure
+=========
+torch.Tensor.ge
+arg0:Any
+=========
+torch.Tensor.sinc
+=========
+torch.unique
+args:Any
+kwargs:Any
+=========
+torch.distributions.exponential.Exponential
+rate:Any
+validate_args:Any
+=========
+torch.nn.utils.parametrize.register_parametrization
+module:Any
+tensor_name:Any
+parametrization:Any
+unsafe:Any
+=========
+torch.distributions.poisson.Poisson
+rate:Any
+validate_args:Any
+=========
+torch.Tensor.arcsinh_
+=========
+torch.Tensor.arctanh_
+arg0:Any
+=========
+torch.Tensor.set_
+source:Any
+ storage_offset:Any
+ size:Any
+ stride:Any
+=========
+torch.dsplit
+arg0:Any
+arg1:Any
+=========
+torch.remainder
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.distributed.elastic.multiprocessing.api.PContext
+=========
+torch.isinf
+arg0:Any
+=========
+torch.logical_xor
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.nn.Dropout3d
+p:Any
+inplace:Any
+=========
+torch.Tensor.greater_
+arg0:Any
+=========
+torch.row_stack
+arg0:Any
+ out:Any
+=========
+torch.Tensor.isnan
+=========
+torch.Tensor.rsqrt_
+=========
+torch.nn.functional.gelu
+arg0:Any
+ approximate :Any
+=========
+torch.sparse.addmm
+arg0:Any
+arg1:Any
+arg2:Any
+ beta:Any
+ alpha:Any
+=========
+torch.sinc
+arg0:Any
+ out:Any
+=========
+torch.Tensor.imag
+=========
+torch.atleast_2d
+tensors:Any
+=========
+torch.distributions.relaxed_bernoulli.LogitRelaxedBernoulli
+temperature:Any
+probs:Any
+logits:Any
+validate_args:Any
+=========
+torch.Tensor.grad
+=========
+torch.nn.functional.elu
+input:Any
+alpha:Any
+inplace:Any
+=========
+torch.Tensor.acosh
+=========
+torch.kron
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.Tensor.backward
+gradient:Any
+retain_graph:Any
+create_graph:Any
+inputs:Any
+=========
+torch.special.entr
+arg0:Any
+ out:Any
+=========
+torch.neg
+arg0:Any
+ out:Any
+=========
+torch.manual_seed
+seed:Any
+=========
+torch.Tensor.tril
+diagonal:Any
+=========
+torch.nn.utils.prune.random_unstructured
+=========
+torch.Tensor.apply_
+arg0:Any
+=========
+torch.distributed.reduce_op
+=========
+torch.nn.utils.prune.PruningContainer
+=========
+torch.Tensor.bitwise_and
+=========
+torch.view_as_real
+arg0:Any
+=========
+torch.not_equal
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.signbit
+arg0:Any
+ out:Any
+=========
+torch.logspace
+arg0:Any
+arg1:Any
+arg2:Any
+ base:Any
+          out:Any
+ dtype:Any
+ layout:Any
+ device:Any
+ requires_grad:Any
+=========
+torch.nn.functional.selu
+input:Any
+inplace:Any
+=========
+torch.bmm
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.Tensor.dim
+=========
+torch.svd
+arg0:Any
+ some:Any
+ compute_uv:Any
+ out:Any
+=========
+torch.ComplexDoubleStorage
+args:Any
+wrap_storage:Any
+dtype:Any
+device:Any
+=========
+torch.Tensor.cauchy_
+median:Any
+ sigma:Any
+ generator:Any
+=========
+torch.Tensor.logical_not
+=========
+torch.Tensor.nanmean
+dim:Any
+ keepdim:Any
+ dtype:Any
+=========
+torch.nn.utils.prune.custom_from_mask
+=========
+torch.Tensor.mode
+dim:Any
+ keepdim:Any
+=========
+torch.Tensor.any
+dim:Any
+ keepdim:Any
+=========
+torch.distributed.is_mpi_available
+=========
+torch.Tensor.igammac
+arg0:Any
+=========
+torch.nn.functional.max_pool3d
+args:Any
+kwargs:Any
+=========
+torch.Tensor.storage
+=========
+torch.nn.functional.tanh
+input:Any
+=========
+torch.Tensor.expand
+arg0:Any
+=========
+torch.nn.functional.cross_entropy
+input:Any
+target:Any
+weight:Any
+size_average:Any
+ignore_index:Any
+reduce:Any
+reduction:Any
+label_smoothing:Any
+=========
+torch.get_num_threads
+=========
+torch.nn.functional.linear
+arg0:Any
+arg1:Any
+ bias:Any
+=========
+torch.heaviside
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.Tensor.allclose
+arg0:Any
+ rtol:Any
+ atol:Any
+ equal_nan:Any
+=========
+torch.bernoulli
+arg0:Any
+ generator:Any
+ out:Any
+=========
+torch.Tensor.addcmul
+arg0:Any
+arg1:Any
+ value:Any
+=========
+torch.Tensor.dense_dim
+=========
+torch.HalfStorage
+args:Any
+wrap_storage:Any
+dtype:Any
+device:Any
+=========
+torch.Tensor.sum_to_size
+arg0:Any
+=========
+torch.Tensor.cummin
+arg0:Any
+=========
+torch.istft
+arg0:Any
+arg1:Any
+ hop_length:Any
+ win_length:Any
+ window:Any
+ center:Any
+ normalized:Any
+ onesided:Any
+ length:Any
+ return_complex:Any
+=========
+torch.Tensor.byte
+memory_format:Any
+=========
+torch.Generator
+=========
+torch.Tensor.negative
+=========
+torch.Tensor.nan_to_num_
+nan:Any
+ posinf:Any
+ neginf:Any
+=========
+torch.distributed.elastic.timer.TimerRequest
+=========
+torch.moveaxis
+arg0:Any
+arg1:Any
+arg2:Any
+=========
+torch.divide
+arg0:Any
+arg1:Any
+ rounding_mode:Any
+ out:Any
+=========
+torch.Tensor.q_scale
+=========
+torch.Tensor.is_complex
+=========
+torch.random.seed
+=========
+torch.futures.wait_all
+futures:Any
+=========
+torch.Tensor.copysign
+arg0:Any
+=========
+torch.nn.functional.pairwise_distance
+arg0:Any
+arg1:Any
+ p:Any
+ eps:Any
+ keepdim:Any
+=========
+torch.narrow
+arg0:Any
+arg1:Any
+arg2:Any
+arg3:Any
+=========
+torch.profiler.profile
+activities:Any
+schedule:Any
+on_trace_ready:Any
+record_shapes:Any
+profile_memory:Any
+with_stack:Any
+with_flops:Any
+with_modules:Any
+experimental_config:Any
+use_cuda:Any
+=========
+torch.hub.set_dir
+d:Any
+=========
+torch.nn.functional.log_softmax
+input:Any
+dim:Any
+_stacklevel:Any
+dtype:Any
+=========
+torch.Tensor.mv
+arg0:Any
+=========
+torch.mvlgamma
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.acosh
+arg0:Any
+ out:Any
+=========
+torch.randint_like
+arg0:Any
+ low:Any
+arg2:Any
+arg3:Any
+ dtype:Any
+ layout:Any
+ device:Any
+ requires_grad:Any
+ memory_format:Any
+=========
+torch.movedim
+arg0:Any
+arg1:Any
+arg2:Any
+=========
+torch.is_warn_always_enabled
+=========
+torch.nn.functional.unfold
+input:Any
+kernel_size:Any
+dilation:Any
+padding:Any
+stride:Any
+=========
+torch.distributed.PrefixStore
+=========
+torch.nn.utils.skip_init
+module_cls:Any
+args:Any
+kwargs:Any
+=========
+torch.ormqr
+arg0:Any
+arg1:Any
+arg2:Any
+ left:Any
+ transpose:Any
+ out:Any
+=========
+torch.distributed.new_group
+ranks:Any
+timeout:Any
+backend:Any
+pg_options:Any
+=========
+torch.Tensor.diag_embed
+offset:Any
+ dim1:Any
+ dim2:Any
+=========
+torch.distributions.independent.Independent
+base_distribution:Any
+reinterpreted_batch_ndims:Any
+validate_args:Any
+=========
+torch.negative
+arg0:Any
+ out:Any
+=========
+torch.distributed.all_reduce_multigpu
+tensor_list:Any
+op:Any
+group:Any
+async_op:Any
+=========
+torch.nn.functional.threshold_
+arg0:Any
+arg1:Any
+arg2:Any
+=========
+torch.vdot
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.optim.lr_scheduler.SequentialLR
+optimizer:Any
+schedulers:Any
+milestones:Any
+last_epoch:Any
+verbose:Any
+=========
+torch.distributed.algorithms.JoinHook
+=========
+torch.cartesian_prod
+tensors:Any
+=========
+torch.nn.functional.adaptive_avg_pool2d
+input:Any
+output_size:Any
+=========
+torch.Tensor.cumsum
+arg0:Any
+ dtype:Any
+=========
+torch.nn.Identity
+args:Any
+kwargs:Any
+=========
+torch.Tensor.tan
+=========
+torch.distributions.half_cauchy.HalfCauchy
+scale:Any
+validate_args:Any
+=========
+torch.nn.Tanh
+=========
+torch.distributed.elastic.rendezvous.dynamic_rendezvous.DynamicRendezvousHandler
+=========
+torch.Tensor.detach_
+=========
+torch.lu_solve
+arg0:Any
+arg1:Any
+arg2:Any
+ out:Any
+=========
+torch.Tensor.conj_physical
+=========
+torch.Tensor.element_size
+=========
+torch.Tensor.rad2deg
+=========
+torch.igamma
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.Tensor.symeig
+eigenvectors:Any
+ upper:Any
+=========
+torch.Tensor.frac_
+=========
+torch.nn.AlphaDropout
+p:Any
+inplace:Any
+=========
+torch.nn.ReplicationPad2d
+padding:Any
+=========
+torch.distributed.elastic.rendezvous.etcd_server.EtcdServer
+=========
+torch.Tensor.erfinv
+=========
+torch.Tensor.q_per_channel_scales
+=========
+torch.Tensor.addcdiv_
+arg0:Any
+arg1:Any
+ value:Any
+=========
+torch.meshgrid
+tensors:Any
+indexing:Any
+=========
+torch.nn.functional.batch_norm
+input:Any
+running_mean:Any
+running_var:Any
+weight:Any
+bias:Any
+training:Any
+momentum:Any
+eps:Any
+=========
+torch.nn.functional.conv_transpose2d
+arg0:Any
+arg1:Any
+ bias:Any
+ stride:Any
+ padding:Any
+ output_padding:Any
+ groups:Any
+ dilation:Any
+=========
+torch.Tensor.unsqueeze
+arg0:Any
+=========
+torch.Tensor.resolve_neg
+=========
+torch.tile
+arg0:Any
+arg1:Any
+=========
+torch.nn.functional.avg_pool1d
+arg0:Any
+arg1:Any
+ stride:Any
+ padding:Any
+ ceil_mode:Any
+ count_include_pad:Any
+=========
+torch.hub.load
+repo_or_dir:Any
+model:Any
+args:Any
+source:Any
+trust_repo:Any
+force_reload:Any
+verbose:Any
+skip_validation:Any
+kwargs:Any
+=========
+torch.Tensor.fix
+=========
+torch.jit.script
+obj:Any
+optimize:Any
+_frames_up:Any
+_rcb:Any
+example_inputs:Any
+=========
+torch.Tensor.pin_memory
+=========
+torch.combinations
+arg0:Any
+ r:Any
+ with_replacement:Any
+=========
+torch.Tensor.is_conj
+=========
+torch.Tensor.addmm
+arg0:Any
+arg1:Any
+ beta:Any
+ alpha:Any
+=========
+torch.float_power
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.nn.LayerNorm
+normalized_shape:Any
+eps:Any
+elementwise_affine:Any
+device:Any
+dtype:Any
+=========
+torch.nn.BatchNorm2d
+num_features:Any
+eps:Any
+momentum:Any
+affine:Any
+track_running_stats:Any
+device:Any
+dtype:Any
+=========
+torch.nn.Flatten
+start_dim:Any
+end_dim:Any
+=========
+torch.optim.Optimizer
+params:Any
+defaults:Any
+=========
+torch.distributed.elastic.metrics.put_metric
+=========
+torch.index_select
+arg0:Any
+arg1:Any
+arg2:Any
+ out:Any
+=========
+torch.optim.ASGD
+params:Any
+lr:Any
+lambd:Any
+alpha:Any
+t0:Any
+weight_decay:Any
+foreach:Any
+maximize:Any
+=========
+torch.nanmedian
+arg0:Any
+=========
+torch.sub
+arg0:Any
+arg1:Any
+ alpha:Any
+ out:Any
+=========
+torch.Tensor.vdot
+arg0:Any
+=========
+torch.arctanh
+arg0:Any
+ out:Any
+=========
+torch.Tensor.nansum
+dim:Any
+ keepdim:Any
+ dtype:Any
+=========
+torch.logical_not
+arg0:Any
+ out:Any
+=========
+torch.Tensor.bitwise_not_
+=========
+torch.nn.PairwiseDistance
+p:Any
+eps:Any
+keepdim:Any
+=========
+torch.special.log1p
+arg0:Any
+ out:Any
+=========
+torch.nn.functional.leaky_relu_
+arg0:Any
+ negative_slope:Any
+=========
+torch.Tensor.matmul
+arg0:Any
+=========
+torch.Tensor.random_
+from:Any
+ to:Any
+ generator:Any
+=========
+torch.nn.functional.embedding_bag
+input:Any
+weight:Any
+offsets:Any
+max_norm:Any
+norm_type:Any
+scale_grad_by_freq:Any
+mode:Any
+sparse:Any
+per_sample_weights:Any
+include_last_offset:Any
+padding_idx:Any
+=========
+torch.matrix_rank
+arg0:Any
+ tol:Any
+ symmetric:Any
+ out:Any
+=========
+torch.Tensor.addr_
+arg0:Any
+arg1:Any
+ beta:Any
+ alpha:Any
+=========
+torch.nn.Conv1d
+in_channels:Any
+out_channels:Any
+kernel_size:Any
+stride:Any
+padding:Any
+dilation:Any
+groups:Any
+bias:Any
+padding_mode:Any
+device:Any
+dtype:Any
+=========
+torch.positive
+arg0:Any
+=========
+torch.Tensor.index_fill
+arg0:Any
+arg1:Any
+arg2:Any
+=========
+torch.distributed.elastic.events.record
+=========
+torch.Tensor.transpose_
+arg0:Any
+arg1:Any
+=========
+torch.nn.functional.kl_div
+input:Any
+target:Any
+size_average:Any
+reduce:Any
+reduction:Any
+log_target:Any
+=========
+torch.true_divide
+arg0:Any
+arg1:Any
+arg3:Any
+=========
+torch.Tensor.new_zeros
+arg0:Any
+ dtype:Any
+ device:Any
+ requires_grad:Any
+=========
+torch.utils.data.DataLoader
+args:Any
+kwds:Any
+=========
+torch.nn.functional.multilabel_margin_loss
+input:Any
+target:Any
+size_average:Any
+reduce:Any
+reduction:Any
+=========
+torch.dist
+arg0:Any
+arg1:Any
+ p:Any
+=========
+torch.Tensor.ldexp
+arg0:Any
+=========
+torch.Tensor.share_memory_
+=========
+torch.logdet
+arg0:Any
+=========
+torch.special.erfcx
+arg0:Any
+ out:Any
+=========
+torch.distributed.elastic.multiprocessing.start_processes
+=========
+torch.nn.ChannelShuffle
+groups:Any
+=========
+torch.diagflat
+arg0:Any
+ offset:Any
+=========
+torch.Tensor.scatter_
+arg0:Any
+arg1:Any
+arg2:Any
+ reduce:Any
+=========
+torch.geqrf
+arg0:Any
+ out:Any
+=========
+torch.Tensor.norm
+p:Any
+dim:Any
+keepdim:Any
+dtype:Any
+=========
+torch.hub.download_url_to_file
+url:Any
+dst:Any
+hash_prefix:Any
+progress:Any
+=========
+torch.Tensor.gather
+arg0:Any
+arg1:Any
+=========
+torch.distributed.all_to_all
+output_tensor_list:Any
+input_tensor_list:Any
+group:Any
+async_op:Any
+=========
+torch.nn.BCELoss
+weight:Any
+size_average:Any
+reduce:Any
+reduction:Any
+=========
+torch.Tensor.is_shared
+=========
+torch.Tensor.gcd
+arg0:Any
+=========
+torch.special.gammaincc
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.Tensor.storage_type
+=========
+torch.Tensor.greater_equal_
+arg0:Any
+=========
+torch.distributed.elastic.rendezvous.RendezvousStateError
+=========
+torch.Tensor.fix_
+=========
+torch.linalg.lstsq
+arg0:Any
+arg1:Any
+ rcond:Any
+ driver:Any
+=========
+torch.distributed.elastic.agent.server.WorkerGroup
+=========
+torch.Tensor.storage_offset
+=========
+torch.asinh
+arg0:Any
+ out:Any
+=========
+torch.Tensor.geometric_
+arg0:Any
+ generator:Any
+=========
+torch.nn.MultiLabelSoftMarginLoss
+weight:Any
+size_average:Any
+reduce:Any
+reduction:Any
+=========
+torch.fx.Proxy
+node:Any
+tracer:Any
+=========
+torch.nn.utils.weight_norm
+module:Any
+name:Any
+dim:Any
+=========
+torch.Tensor.requires_grad_
+requires_grad:Any
+=========
+torch.Tensor.isinf
+=========
+torch.jit.trace_module
+mod:Any
+inputs:Any
+optimize:Any
+check_trace:Any
+check_inputs:Any
+check_tolerance:Any
+strict:Any
+_force_outplace:Any
+_module_class:Any
+_compilation_unit:Any
+=========
+torch.special.ndtri
+arg0:Any
+ out:Any
+=========
+torch.distributed.get_world_size
+group:Any
+=========
+torch.Tensor.new_tensor
+arg0:Any
+ dtype:Any
+ device:Any
+ requires_grad:Any
+=========
+torch.Tensor.uniform_
+from:Any
+ to:Any
+=========
+torch.Tensor.swapdims
+arg0:Any
+arg1:Any
+=========
+torch.nn.ReflectionPad1d
+padding:Any
+=========
+torch.nn.RReLU
+lower:Any
+upper:Any
+inplace:Any
+=========
+torch.log2
+arg0:Any
+ out:Any
+=========
+torch.Tensor.get_device
+=========
+torch.Tensor.pow_
+arg0:Any
+=========
+torch.Tensor.mvlgamma
+arg0:Any
+=========
+torch.linalg.eigvals
+arg0:Any
+ out:Any
+=========
+torch.is_inference_mode_enabled
+=========
+torch.nn.LSTMCell
+input_size:Any
+hidden_size:Any
+bias:Any
+device:Any
+dtype:Any
+=========
+torch.diagonal
+arg0:Any
+ offset:Any
+ dim1:Any
+ dim2:Any
+=========
+torch.special.i1e
+arg0:Any
+ out:Any
+=========
+torch.Tensor.not_equal_
+arg0:Any
+=========
+torch.Tensor.amax
+dim:Any
+ keepdim:Any
+=========
+torch.nn.functional.lp_pool2d
+input:Any
+norm_type:Any
+kernel_size:Any
+stride:Any
+ceil_mode:Any
+=========
+torch.distributed.reduce_scatter
+output:Any
+input_list:Any
+op:Any
+group:Any
+async_op:Any
+=========
+torch.nn.TransformerEncoderLayer
+d_model:Any
+nhead:Any
+dim_feedforward:Any
+dropout:Any
+activation:Any
+layer_norm_eps:Any
+batch_first:Any
+norm_first:Any
+device:Any
+dtype:Any
+=========
+torch.distributions.uniform.Uniform
+low:Any
+high:Any
+validate_args:Any
+=========
+torch.Tensor.renorm
+arg0:Any
+arg1:Any
+arg2:Any
+=========
+torch.pow
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.optim.lr_scheduler.CosineAnnealingWarmRestarts
+optimizer:Any
+T_0:Any
+T_mult:Any
+eta_min:Any
+last_epoch:Any
+verbose:Any
+=========
+torch.CharStorage
+args:Any
+wrap_storage:Any
+dtype:Any
+device:Any
+=========
+torch.utils.data.random_split
+dataset:Any
+lengths:Any
+generator:Any
+=========
+torch.onnx.is_in_onnx_export
+=========
+torch.unsqueeze
+arg0:Any
+arg1:Any
+=========
+torch.distributed.elastic.rendezvous.RendezvousError
+=========
+torch.Tensor.i0
+=========
+torch.nn.functional.local_response_norm
+input:Any
+size:Any
+alpha:Any
+beta:Any
+k:Any
+=========
+torch.linalg.cholesky_ex
+arg0:Any
+ upper:Any
+ check_errors:Any
+ out:Any
+=========
+torch.Tensor.trace
+=========
+torch.distributed.recv
+tensor:Any
+src:Any
+group:Any
+tag:Any
+=========
+torch.Tensor.arccosh_
+=========
+torch.nn.functional.poisson_nll_loss
+input:Any
+target:Any
+log_input:Any
+full:Any
+size_average:Any
+eps:Any
+reduce:Any
+reduction:Any
+=========
+torch.maximum
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.svd_lowrank
+A:Any
+q:Any
+niter:Any
+M:Any
+=========
+torch.utils.benchmark.Timer
+=========
+torch.rand_like
+arg0:Any
+ dtype:Any
+ layout:Any
+ device:Any
+ requires_grad:Any
+ memory_format:Any
+=========
+torch.futures.collect_all
+futures:Any
+=========
+torch.profiler.schedule
+wait:Any
+warmup:Any
+active:Any
+repeat:Any
+skip_first:Any
+=========
+torch.expm1
+arg0:Any
+ out:Any
+=========
+torch.Tensor.fmin
+arg0:Any
+=========
+torch.addbmm
+arg0:Any
+arg1:Any
+arg2:Any
+ beta:Any
+ alpha:Any
+ out:Any
+=========
+torch.nn.modules.module.register_module_backward_hook
+hook:Any
+=========
+torch.set_num_threads
+arg0:Any
+=========
+torch.set_grad_enabled
+mode:Any
+=========
+torch.jit.script_if_tracing
+fn:Any
+=========
+torch.fft.fftfreq
+arg0:Any
+ d:Any
+ out:Any
+ dtype:Any
+ layout:Any
+ device:Any
+ requires_grad:Any
+=========
+torch.nn.functional.multi_margin_loss
+input:Any
+target:Any
+p:Any
+margin:Any
+weight:Any
+size_average:Any
+reduce:Any
+reduction:Any
+=========
+torch.testing.make_tensor
+shape:Any
+dtype:Any
+device:Any
+low:Any
+high:Any
+requires_grad:Any
+noncontiguous:Any
+exclude_zero:Any
+=========
+torch.nn.functional.tanhshrink
+input:Any
+=========
+torch.Tensor.matrix_power
+arg0:Any
+=========
+torch.corrcoef
+arg0:Any
+=========
+torch.nn.functional.conv2d
+arg0:Any
+arg1:Any
+ bias:Any
+ stride:Any
+ padding:Any
+ dilation:Any
+ groups:Any
+=========
+torch.Tensor.outer
+arg0:Any
+=========
+torch.BFloat16Storage
+args:Any
+wrap_storage:Any
+dtype:Any
+device:Any
+=========
+torch.nn.init.normal_
+tensor:Any
+mean:Any
+std:Any
+=========
+torch.linalg.matrix_norm
+arg0:Any
+ ord:Any
+ dim:Any
+=========
+torch.hub.load_state_dict_from_url
+url:Any
+model_dir:Any
+map_location:Any
+progress:Any
+check_hash:Any
+file_name:Any
+=========
+torch.Tensor.sgn
+=========
+torch.utils.cpp_extension.check_compiler_abi_compatibility
+=========
+torch.stack
+arg0:Any
+ dim:Any
+ out:Any
+=========
+torch.Tensor.new_full
+arg0:Any
+arg1:Any
+ dtype:Any
+ device:Any
+ requires_grad:Any
+=========
+torch.fft.ihfft
+arg0:Any
+ n:Any
+ dim:Any
+ norm:Any
+ out:Any
+=========
+torch.Tensor.sparse_dim
+=========
+torch.nn.functional.max_unpool2d
+input:Any
+indices:Any
+kernel_size:Any
+stride:Any
+padding:Any
+output_size:Any
+=========
+torch.hspmm
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.package.PackageImporter
+file_or_buffer:Any
+module_allowed:Any
+=========
+torch.Tensor.minimum
+arg0:Any
+=========
+torch.special.i0e
+arg0:Any
+ out:Any
+=========
+torch.Tensor.polygamma_
+arg0:Any
+=========
+torch.nn.functional.normalize
+input:Any
+p:Any
+dim:Any
+eps:Any
+out:Any
+=========
+torch.distributed.elastic.events.api.EventSource
+=========
+torch.Tensor.index_copy_
+arg0:Any
+arg1:Any
+arg2:Any
+=========
+torch.Tensor.broadcast_to
+arg0:Any
+=========
+torch.nn.utils.prune.is_pruned
+=========
+torch.view_as_complex
+arg0:Any
+=========
+torch.Tensor.reshape_as
+arg0:Any
+=========
+torch.Tensor.remainder
+arg0:Any
+=========
+torch.Tensor.heaviside
+arg0:Any
+=========
+torch.distributed.elastic.timer.TimerClient
+=========
+torch.triu_indices
+arg0:Any
+arg1:Any
+ offset:Any
+ dtype:Any
+ device:Any
+ layout:Any
+=========
+torch.nn.PReLU
+num_parameters:Any
+init:Any
+device:Any
+dtype:Any
+=========
+torch.Tensor.flip
+arg0:Any
+=========
+torch.Tensor.mul_
+arg0:Any
+=========
+torch.Tensor.equal
+arg0:Any
+=========
+torch.nn.AdaptiveAvgPool1d
+output_size:Any
+=========
+torch.set_warn_always
+b:Any
+=========
+torch.distributions.relaxed_categorical.RelaxedOneHotCategorical
+temperature:Any
+probs:Any
+logits:Any
+validate_args:Any
+=========
+torch.fmod
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.ravel
+arg0:Any
+=========
+torch.nn.LPPool2d
+norm_type:Any
+kernel_size:Any
+stride:Any
+ceil_mode:Any
+=========
+torch.Tensor.lstsq
+arg0:Any
+=========
+torch.flip
+arg0:Any
+arg1:Any
+=========
+torch.linalg.matmul
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.distributed.elastic.rendezvous.etcd_rendezvous_backend.create_backend
+=========
+torch.linalg.eig
+arg0:Any
+ out:Any
+=========
+torch.Tensor.log10_
+=========
+torch.Tensor.less_equal
+arg0:Any
+=========
+torch.nn.PixelShuffle
+upscale_factor:Any
+=========
+torch.exp
+arg0:Any
+ out:Any
+=========
+torch.special.i1
+arg0:Any
+ out:Any
+=========
+torch.Tensor.neg_
+=========
+torch.Tensor.atan2
+arg0:Any
+=========
+torch.renorm
+arg0:Any
+arg1:Any
+arg2:Any
+arg3:Any
+ out:Any
+=========
+torch.package.Directory
+name:Any
+is_dir:Any
+=========
+torch.Tensor.erfc_
+=========
+torch.set_num_interop_threads
+arg0:Any
+=========
+torch.nn.functional.fractional_max_pool3d
+args:Any
+kwargs:Any
+=========
+torch.diag_embed
+arg0:Any
+ offset:Any
+ dim1:Any
+ dim2:Any
+=========
+torch.nn.utils.prune.L1Unstructured
+=========
+torch.isnan
+arg0:Any
+=========
+torch.Tensor.bitwise_xor
+=========
+torch.Tensor.istft
+n_fft:Any
+hop_length:Any
+win_length:Any
+window:Any
+center:Any
+normalized:Any
+onesided:Any
+length:Any
+return_complex:Any
+=========
+torch.nn.TransformerDecoderLayer
+d_model:Any
+nhead:Any
+dim_feedforward:Any
+dropout:Any
+activation:Any
+layer_norm_eps:Any
+batch_first:Any
+norm_first:Any
+device:Any
+dtype:Any
+=========
+torch.Tensor.put_
+arg0:Any
+arg1:Any
+ accumulate:Any
+=========
+torch.enable_grad
+=========
+torch.Tensor.sqrt
+=========
+torch.Tensor.hypot_
+arg0:Any
+=========
+torch.optim.Adam
+params:Any
+lr:Any
+betas:Any
+eps:Any
+weight_decay:Any
+amsgrad:Any
+foreach:Any
+maximize:Any
+capturable:Any
+differentiable:Any
+=========
+torch.minimum
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.nn.functional.alpha_dropout
+input:Any
+p:Any
+training:Any
+inplace:Any
+=========
+torch.result_type
+arg0:Any
+arg1:Any
+=========
+torch.Tensor.gt
+arg0:Any
+=========
+torch.linalg.norm
+arg0:Any
+ ord:Any
+ dim:Any
+ keepdim:Any
+ out:Any
+ dtype:Any
+=========
+torch.overrides.get_overridable_functions
+=========
+torch.var_mean
+arg0:Any
+arg1:Any
+arg2:Any
+ keepdim:Any
+ out:Any
+=========
+torch.sparse.sum
+input:Any
+dim:Any
+dtype:Any
+=========
+torch.nan_to_num
+arg0:Any
+ nan:Any
+ posinf:Any
+ neginf:Any
+ out:Any
+=========
+torch.nn.parallel.DistributedDataParallel
+module:Any
+device_ids:Any
+output_device:Any
+dim:Any
+broadcast_buffers:Any
+process_group:Any
+bucket_cap_mb:Any
+find_unused_parameters:Any
+check_reduction:Any
+gradient_as_bucket_view:Any
+static_graph:Any
+=========
+torch.nextafter
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.Tensor.gcd_
+arg0:Any
+=========
+torch.nn.GRU
+args:Any
+kwargs:Any
+=========
+torch.Tensor.split
+split_size:Any
+dim:Any
+=========
+torch.Tensor.ne_
+arg0:Any
+=========
+torch.digamma
+arg0:Any
+ out:Any
+=========
+torch.tan
+arg0:Any
+ out:Any
+=========
+torch.fx.Transformer
+module:Any
+=========
+torch.kthvalue
+arg0:Any
+arg1:Any
+ dim:Any
+ keepdim:Any
+ out:Any
+=========
+torch.Tensor.sinh_
+=========
+torch.overrides.is_tensor_like
+inp:Any
+=========
+torch.Tensor.movedim
+arg0:Any
+arg1:Any
+=========
+torch.Tensor.atanh
+=========
+torch.solve
+input:Any
+A:Any
+out:Any
+=========
+torch.nn.utils.prune.ln_structured
+=========
+torch.Tensor.int
+memory_format:Any
+=========
+torch.fliplr
+arg0:Any
+=========
+torch.lcm
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.distributions.pareto.Pareto
+scale:Any
+alpha:Any
+validate_args:Any
+=========
+torch.optim.Adadelta
+params:Any
+lr:Any
+rho:Any
+eps:Any
+weight_decay:Any
+foreach:Any
+maximize:Any
+=========
+torch.nn.TripletMarginLoss
+margin:Any
+p:Any
+eps:Any
+swap:Any
+size_average:Any
+reduce:Any
+reduction:Any
+=========
+torch.take
+arg0:Any
+arg1:Any
+=========
+torch.isclose
+arg0:Any
+arg1:Any
+ rtol:Any
+ atol:Any
+ equal_nan:Any
+=========
+torch.Tensor.to_sparse
+arg0:Any
+=========
+torch.overrides.handle_torch_function
+public_api:Any
+relevant_args:Any
+args:Any
+kwargs:Any
+=========
+torch.Tensor.is_set_to
+arg0:Any
+=========
+torch.nn.ParameterList
+values:Any
+=========
+torch.topk
+arg0:Any
+arg1:Any
+ dim:Any
+ largest:Any
+ sorted:Any
+ out:Any
+=========
+torch.fx.GraphModule
+args:Any
+kwargs:Any
+=========
+torch.Tensor.round_
+decimals:Any
+=========
+torch.optim.SparseAdam
+params:Any
+lr:Any
+betas:Any
+eps:Any
+maximize:Any
+=========
+torch.flatten
+arg0:Any
+ start_dim:Any
+ end_dim:Any
+=========
+torch.clone
+arg0:Any
+ memory_format:Any
+=========
+torch.jit.save
+m:Any
+f:Any
+_extra_files:Any
+=========
+torch.distributed.all_reduce
+tensor:Any
+op:Any
+group:Any
+async_op:Any
+=========
+torch.cross
+arg0:Any
+arg1:Any
+ dim:Any
+ out:Any
+=========
+torch.distributions.fishersnedecor.FisherSnedecor
+df1:Any
+df2:Any
+validate_args:Any
+=========
+torch.nn.functional.relu
+input:Any
+inplace:Any
+=========
+torch.nn.ConvTranspose3d
+in_channels:Any
+out_channels:Any
+kernel_size:Any
+stride:Any
+padding:Any
+output_padding:Any
+groups:Any
+bias:Any
+dilation:Any
+padding_mode:Any
+device:Any
+dtype:Any
+=========
+torch.Tensor.is_cuda
+=========
+torch.optim.AdamW
+params:Any
+lr:Any
+betas:Any
+eps:Any
+weight_decay:Any
+amsgrad:Any
+maximize:Any
+foreach:Any
+capturable:Any
+=========
+torch.distributed.broadcast
+tensor:Any
+src:Any
+group:Any
+async_op:Any
+=========
+torch.Tensor.sin
+=========
+torch.hann_window
+arg0:Any
+ periodic:Any
+ dtype:Any
+ layout:Any
+ device:Any
+ requires_grad:Any
+=========
+torch.numel
+arg0:Any
+=========
+torch.distributed.elastic.metrics.api.MetricHandler
+=========
+torch.trunc
+arg0:Any
+ out:Any
+=========
+torch.nn.modules.lazy.LazyModuleMixin
+args:Any
+kwargs:Any
+=========
+torch.tensor
+arg0:Any
+ dtype:Any
+ device:Any
+ requires_grad:Any
+ pin_memory:Any
+=========
+torch.broadcast_shapes
+shapes:Any
+=========
+torch.can_cast
+arg0:Any
+arg1:Any
+=========
+torch.nn.UpsamplingBilinear2d
+size:Any
+scale_factor:Any
+=========
+torch.Tensor.count_nonzero
+dim:Any
+=========
+torch.optim.RMSprop
+params:Any
+lr:Any
+alpha:Any
+eps:Any
+weight_decay:Any
+momentum:Any
+centered:Any
+foreach:Any
+maximize:Any
+differentiable:Any
+=========
+torch.Tensor.arccos
+=========
+torch.nn.Fold
+output_size:Any
+kernel_size:Any
+dilation:Any
+padding:Any
+stride:Any
+=========
+torch.utils.data.RandomSampler
+args:Any
+kwds:Any
+=========
+torch.ByteStorage
+args:Any
+wrap_storage:Any
+dtype:Any
+device:Any
+=========
+torch.Tensor.stft
+n_fft:Any
+hop_length:Any
+win_length:Any
+window:Any
+center:Any
+pad_mode:Any
+normalized:Any
+onesided:Any
+return_complex:Any
+=========
+torch.linalg.matrix_rank
+arg0:Any
+ atol:Any
+ rtol:Any
+ hermitian:Any
+ out:Any
+=========
+torch.Tensor.device
+=========
+torch.nn.init.constant_
+tensor:Any
+val:Any
+=========
+torch.Tensor.nextafter
+arg0:Any
+=========
+torch.quantile
+arg0:Any
+arg1:Any
+ dim:Any
+ keepdim:Any
+ interpolation:Any
+ out:Any
+=========
+torch.nn.AdaptiveMaxPool1d
+output_size:Any
+return_indices:Any
+=========
+torch.nn.init.ones_
+tensor:Any
+=========
+torch.distributions.half_normal.HalfNormal
+scale:Any
+validate_args:Any
+=========
+torch.Tensor.qscheme
+=========
+torch.mul
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.nn.functional.pixel_unshuffle
+arg0:Any
+arg1:Any
+=========
+torch.distributions.chi2.Chi2
+df:Any
+validate_args:Any
+=========
+torch.atan
+arg0:Any
+ out:Any
+=========
+torch.Tensor.remainder_
+arg0:Any
+=========
+torch.utils.cpp_extension.is_ninja_available
+=========
+torch.Tensor.floor_divide_
+arg0:Any
+=========
+torch.Tensor.unique_consecutive
+return_inverse:Any
+return_counts:Any
+dim:Any
+=========
+torch.Tensor.msort
+=========
+torch.Tensor.log1p_
+=========
+torch.Tensor.smm
+arg0:Any
+=========
+torch.Tensor.topk
+arg0:Any
+ dim:Any
+ largest:Any
+ sorted:Any
+=========
+torch.unbind
+arg0:Any
+ dim:Any
+=========
+torch.jit.annotate
+the_type:Any
+the_value:Any
+=========
+torch.nn.init.kaiming_normal_
+tensor:Any
+a:Any
+mode:Any
+nonlinearity:Any
+=========
+torch.nn.BCEWithLogitsLoss
+weight:Any
+size_average:Any
+reduce:Any
+reduction:Any
+pos_weight:Any
+=========
+torch.Tensor.logit
+=========
+torch.Tensor.masked_fill_
+arg0:Any
+arg1:Any
+=========
+torch.nn.HuberLoss
+reduction:Any
+delta:Any
+=========
+torch.repeat_interleave
+arg0:Any
+arg1:Any
+ dim:Any
+ output_size:Any
+=========
+torch.nn.LazyBatchNorm2d
+eps:Any
+momentum:Any
+affine:Any
+track_running_stats:Any
+device:Any
+dtype:Any
+=========
+torch.Tensor.fmax
+arg0:Any
+=========
+torch.Tensor.var
+arg0:Any
+ unbiased:Any
+ keepdim:Any
+=========
+torch.Tensor.isfinite
+=========
+torch.distributed.elastic.metrics.api.NullMetricHandler
+=========
+torch.optim.lr_scheduler.StepLR
+optimizer:Any
+step_size:Any
+gamma:Any
+last_epoch:Any
+verbose:Any
+=========
+torch.nn.ReLU
+inplace:Any
+=========
+torch.jit.ignore
+drop:Any
+kwargs:Any
+=========
+torch.Tensor.absolute
+=========
+torch.Tensor.to_mkldnn
+=========
+torch.nn.Mish
+inplace:Any
+=========
+torch.symeig
+arg0:Any
+ eigenvectors:Any
+ upper:Any
+ out:Any
+=========
+torch.angle
+arg0:Any
+ out:Any
+=========
+torch.add
+arg0:Any
+arg1:Any
+ alpha:Any
+ out:Any
+=========
+torch.nn.functional.ctc_loss
+log_probs:Any
+targets:Any
+input_lengths:Any
+target_lengths:Any
+blank:Any
+reduction:Any
+zero_infinity:Any
+=========
+torch.nn.functional.cosine_embedding_loss
+input1:Any
+input2:Any
+target:Any
+margin:Any
+size_average:Any
+reduce:Any
+reduction:Any
+=========
+torch.chain_matmul
+matrices:Any
+out:Any
+=========
+torch.nn.AdaptiveMaxPool2d
+output_size:Any
+return_indices:Any
+=========
+torch.nn.utils.parametrize.remove_parametrizations
+module:Any
+tensor_name:Any
+leave_parametrized:Any
+=========
+torch.distributions.transforms.IndependentTransform
+base_transform:Any
+reinterpreted_batch_ndims:Any
+cache_size:Any
+=========
+torch.atleast_3d
+tensors:Any
+=========
+torch.sin
+arg0:Any
+ out:Any
+=========
+torch.distributed.get_backend
+group:Any
+=========
+torch.distributed.scatter
+tensor:Any
+scatter_list:Any
+src:Any
+group:Any
+async_op:Any
+=========
+torch.nn.utils.rnn.pad_sequence
+sequences:Any
+batch_first:Any
+padding_value:Any
+=========
+torch.broadcast_to
+arg0:Any
+arg1:Any
+=========
+torch.Tensor.bincount
+weights:Any
+ minlength:Any
+=========
+torch.exp2
+arg0:Any
+ out:Any
+=========
+torch.nn.functional.celu
+input:Any
+alpha:Any
+inplace:Any
+=========
+torch.any
+arg0:Any
+=========
+torch.dstack
+arg0:Any
+ out:Any
+=========
+torch.nn.functional.dropout2d
+input:Any
+p:Any
+training:Any
+inplace:Any
+=========
+torch.Tensor.record_stream
+arg0:Any
+=========
+torch.distributed.Store
+=========
+torch.sqrt
+arg0:Any
+ out:Any
+=========
+torch.package.PackageExporter
+f:Any
+importer:Any
+=========
+torch.cholesky
+arg0:Any
+ upper:Any
+ out:Any
+=========
+torch.nn.MultiheadAttention
+embed_dim:Any
+num_heads:Any
+dropout:Any
+bias:Any
+add_bias_kv:Any
+add_zero_attn:Any
+kdim:Any
+vdim:Any
+batch_first:Any
+device:Any
+dtype:Any
+=========
+torch.Tensor.index_add
+arg0:Any
+arg1:Any
+arg2:Any
+ alpha:Any
+=========
+torch.Tensor.add
+arg0:Any
+ alpha:Any
+=========
+torch.sparse.log_softmax
+arg0:Any
+arg1:Any
+ dtype:Any
+=========
+torch.nn.functional.adaptive_max_pool1d
+args:Any
+kwargs:Any
+=========
+torch.linalg.slogdet
+arg0:Any
+ out:Any
+=========
+torch.Tensor.arcsin_
+=========
+torch.ne
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.nn.functional.mse_loss
+input:Any
+target:Any
+size_average:Any
+reduce:Any
+reduction:Any
+=========
+torch.distributions.transforms.AbsTransform
+cache_size:Any
+=========
+torch.nn.functional.nll_loss
+input:Any
+target:Any
+weight:Any
+size_average:Any
+ignore_index:Any
+reduce:Any
+reduction:Any
+=========
+torch.nn.CELU
+alpha:Any
+inplace:Any
+=========
+torch.utils.data.Dataset
+args:Any
+kwds:Any
+=========
+torch.hsplit
+arg0:Any
+arg1:Any
+=========
+torch.jit.load
+f:Any
+map_location:Any
+_extra_files:Any
+=========
+torch.set_printoptions
+precision:Any
+threshold:Any
+edgeitems:Any
+linewidth:Any
+profile:Any
+sci_mode:Any
+=========
+torch.Tensor.median
+dim:Any
+ keepdim:Any
+=========
+torch.distributions.one_hot_categorical.OneHotCategorical
+probs:Any
+logits:Any
+validate_args:Any
+=========
+torch.Tensor.repeat
+arg0:Any
+=========
+torch.eig
+arg0:Any
+ eigenvectors:Any
+ out:Any
+=========
+torch.Tensor.triu_
+diagonal:Any
+=========
+torch.sinh
+arg0:Any
+ out:Any
+=========
+torch.utils.data.SubsetRandomSampler
+args:Any
+kwds:Any
+=========
+torch.floor
+arg0:Any
+ out:Any
+=========
+torch.Tensor.lerp_
+arg0:Any
+arg1:Any
+=========
+torch.addr
+arg0:Any
+arg1:Any
+arg2:Any
+ beta:Any
+ alpha:Any
+ out:Any
+=========
+torch.nn.utils.parametrizations.spectral_norm
+module:Any
+name:Any
+n_power_iterations:Any
+eps:Any
+dim:Any
+=========
+torch.jit.ScriptModule
+=========
+torch.fft.irfft2
+arg0:Any
+ s:Any
+ dim:Any
+=========
+torch.Tensor.expm1_
+=========
+torch.nn.TripletMarginWithDistanceLoss
+distance_function:Any
+margin:Any
+swap:Any
+reduction:Any
+=========
+torch.optim.lr_scheduler.LinearLR
+optimizer:Any
+start_factor:Any
+end_factor:Any
+total_iters:Any
+last_epoch:Any
+verbose:Any
+=========
+torch.logit
+arg0:Any
+ eps:Any
+ out:Any
+=========
+torch.median
+arg0:Any
+=========
+torch.Tensor.zero_
+=========
+torch.cov
+arg0:Any
+ correction:Any
+ fweights:Any
+ aweights:Any
+=========
+torch.jit.fork
+func:Any
+args:Any
+kwargs:Any
+=========
+torch.vstack
+arg0:Any
+ out:Any
+=========
+torch.distributions.geometric.Geometric
+probs:Any
+logits:Any
+validate_args:Any
+=========
+torch.distributed.elastic.rendezvous.c10d_rendezvous_backend.C10dRendezvousBackend
+=========
+torch.nn.L1Loss
+size_average:Any
+reduce:Any
+reduction:Any
+=========
+torch.less
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.distributions.transforms.ReshapeTransform
+in_shape:Any
+out_shape:Any
+cache_size:Any
+=========
+torch.Tensor.kthvalue
+arg0:Any
+ dim:Any
+ keepdim:Any
+=========
+torch.Tensor.t_
+=========
+torch.Tensor.reciprocal_
+=========
+torch.special.erfinv
+arg0:Any
+ out:Any
+=========
+torch.Tensor.svd
+some:Any
+ compute_uv:Any
+=========
+torch.igammac
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.distributed.elastic.rendezvous.RendezvousHandlerRegistry
+=========
+torch.nn.functional.threshold
+input:Any
+threshold:Any
+value:Any
+inplace:Any
+=========
+torch.utils.cpp_extension.load
+=========
+torch.nn.SmoothL1Loss
+size_average:Any
+reduce:Any
+reduction:Any
+beta:Any
+=========
+torch.frexp
+arg0:Any
+ out:Any
+=========
+torch.vsplit
+arg0:Any
+arg1:Any
+=========
+torch.Tensor.slogdet
+=========
+torch.distributions.weibull.Weibull
+scale:Any
+concentration:Any
+validate_args:Any
+=========
+torch.set_default_dtype
+d:Any
+=========
+torch.nn.utils.prune.BasePruningMethod
+=========
+torch.distributed.barrier
+group:Any
+async_op:Any
+device_ids:Any
+=========
+torch.nn.Softshrink
+lambd:Any
+=========
+torch.logaddexp
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.Tensor.cummax
+arg0:Any
+=========
+torch.masked_select
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.diag
+arg0:Any
+ diagonal:Any
+ out:Any
+=========
+torch.distributed.elastic.rendezvous.RendezvousConnectionError
+=========
+torch.Tensor.logdet
+=========
+torch.nn.utils.remove_spectral_norm
+module:Any
+name:Any
+=========
+torch.linalg.tensorinv
+arg0:Any
+ ind:Any
+ out:Any
+=========
+torch.distributions.laplace.Laplace
+loc:Any
+scale:Any
+validate_args:Any
+=========
+torch.Tensor.scatter_add_
+arg0:Any
+arg1:Any
+arg2:Any
+=========
+torch.Tensor.size
+dim:Any
+=========
+torch.Tensor.inverse
+=========
+torch.Tensor.ndimension
+=========
+torch.Tensor.bitwise_and_
+=========
+torch.quantized_max_pool2d
+arg0:Any
+arg1:Any
+ stride:Any
+ padding:Any
+ dilation:Any
+ ceil_mode:Any
+=========
+torch.hypot
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.Tensor.long
+memory_format:Any
+=========
+torch.nn.utils.rnn.PackedSequence
+data:Any
+batch_sizes:Any
+sorted_indices:Any
+unsorted_indices:Any
+=========
+torch.nn.functional.soft_margin_loss
+input:Any
+target:Any
+size_average:Any
+reduce:Any
+reduction:Any
+=========
+torch.histc
+arg0:Any
+ bins:Any
+ min:Any
+ max:Any
+ out:Any
+=========
+torch.Tensor.ne
+arg0:Any
+=========
+torch.hub.help
+github:Any
+model:Any
+force_reload:Any
+skip_validation:Any
+trust_repo:Any
+=========
+torch.special.log_softmax
+arg0:Any
+arg1:Any
+ dtype:Any
+=========
+torch.Tensor.reshape
+arg0:Any
+=========
+torch.Tensor.pow
+arg0:Any
+=========
+torch.distributions.lowrank_multivariate_normal.LowRankMultivariateNormal
+loc:Any
+cov_factor:Any
+cov_diag:Any
+validate_args:Any
+=========
+torch.quantize_per_channel
+arg0:Any
+arg1:Any
+arg2:Any
+arg3:Any
+arg4:Any
+=========
+torch.fft.ifft2
+arg0:Any
+ s:Any
+ dim:Any
+=========
+torch.nn.ReflectionPad3d
+padding:Any
+=========
+torch.distributions.gamma.Gamma
+concentration:Any
+rate:Any
+validate_args:Any
+=========
+torch.fx.Graph
+owning_module:Any
+tracer_cls:Any
+tracer_extras:Any
+=========
+torch.utils.cpp_extension.verify_ninja_availability
+=========
+torch.nn.GaussianNLLLoss
+full:Any
+eps:Any
+reduction:Any
+=========
+torch.nn.functional.max_pool1d
+args:Any
+kwargs:Any
+=========
+torch.quantize_per_tensor
+arg0:Any
+arg1:Any
+arg2:Any
+arg3:Any
+=========
+torch.logical_or
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.triangular_solve
+arg0:Any
+arg1:Any
+ upper:Any
+ transpose:Any
+ unitriangular:Any
+ out:Any
+=========
+torch.nn.utils.prune.LnStructured
+=========
+torch.nn.init.uniform_
+tensor:Any
+a:Any
+b:Any
+=========
+torch.isneginf
+arg0:Any
+ out:Any
+=========
+torch.Tensor.sigmoid
+=========
+torch.distributed.elastic.timer.LocalTimerClient
+=========
+torch.Tensor.logical_and_
+=========
+torch.Tensor.arccos_
+=========
+torch.Tensor.is_inference
+=========
+torch.Tensor.cholesky
+upper:Any
+=========
+torch.Tensor.negative_
+=========
+torch.nn.functional.group_norm
+input:Any
+num_groups:Any
+weight:Any
+bias:Any
+eps:Any
+=========
+torch.nn.AdaptiveAvgPool2d
+output_size:Any
+=========
+torch.Tensor.lerp
+arg0:Any
+arg1:Any
+=========
+torch.nn.utils.prune.global_unstructured
+=========
+torch.empty
+arg0:Any
+ out:Any
+ dtype:Any
+ layout:Any
+ device:Any
+ requires_grad:Any
+ pin_memory:Any
+ memory_format:Any
+=========
+torch.Tensor.lgamma
+=========
+torch.distributed.monitored_barrier
+group:Any
+timeout:Any
+wait_all_ranks:Any
+=========
+torch.argmax
+arg0:Any
+=========
+torch.Tensor.dist
+arg0:Any
+ p:Any
+=========
+torch.fft.ifftshift
+arg0:Any
+ dim:Any
+=========
+torch.Tensor.log_normal_
+mean:Any
+ std:Any
+ generator:Any
+=========
+torch.greater
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.swapdims
+arg0:Any
+arg1:Any
+arg2:Any
+=========
+torch.Tensor.permute
+arg0:Any
+=========
+torch.det
+arg0:Any
+=========
+torch.linspace
+arg0:Any
+arg1:Any
+arg2:Any
+ out:Any
+ dtype:Any
+ layout:Any
+ device:Any
+ requires_grad:Any
+=========
+torch.arcsin
+arg0:Any
+ out:Any
+=========
+torch.Tensor.erf_
+=========
+torch.BoolStorage
+args:Any
+wrap_storage:Any
+dtype:Any
+device:Any
+=========
+torch.Tensor.nextafter_
+arg0:Any
+=========
+torch.Tensor.arcsin
+=========
+torch.distributed.elastic.rendezvous.RendezvousClosedError
+=========
+torch.distributed.ReduceOp
+=========
+torch.nn.init.dirac_
+tensor:Any
+groups:Any
+=========
+torch.nn.Hardsigmoid
+inplace:Any
+=========
+torch.jit.trace
+func:Any
+example_inputs:Any
+optimize:Any
+check_trace:Any
+check_inputs:Any
+check_tolerance:Any
+strict:Any
+_force_outplace:Any
+_module_class:Any
+_compilation_unit:Any
+=========
+torch.optim.lr_scheduler.CosineAnnealingLR
+optimizer:Any
+T_max:Any
+eta_min:Any
+last_epoch:Any
+verbose:Any
+=========
+torch.nn.functional.max_unpool3d
+input:Any
+indices:Any
+kernel_size:Any
+stride:Any
+padding:Any
+output_size:Any
+=========
+torch.Tensor.addr
+arg0:Any
+arg1:Any
+ beta:Any
+ alpha:Any
+=========
+torch.distributed.reduce_scatter_multigpu
+output_tensor_list:Any
+input_tensor_lists:Any
+op:Any
+group:Any
+async_op:Any
+=========
+torch.distributed.elastic.metrics.api.ConsoleMetricHandler
+=========
+torch.Tensor.igamma
+arg0:Any
+=========
+torch.distributed.elastic.agent.server.SimpleElasticAgent
+=========
+torch.DoubleStorage
+args:Any
+wrap_storage:Any
+dtype:Any
+device:Any
+=========
+torch.nn.init.xavier_normal_
+tensor:Any
+gain:Any
+=========
+torch.Tensor.igammac_
+arg0:Any
+=========
+torch.nn.functional.elu_
+arg0:Any
+ alpha:Any
+=========
+torch.Tensor.ge_
+arg0:Any
+=========
+torch.Tensor.is_sparse
+=========
+torch.arccos
+arg0:Any
+ out:Any
+=========
+torch.Tensor.exp_
+=========
+torch.special.round
+arg0:Any
+ out:Any
+=========
+torch.Tensor.is_floating_point
+=========
+torch.all
+arg0:Any
+=========
+torch.nn.Unflatten
+dim:Any
+unflattened_size:Any
+=========
+torch.Tensor.sinh
+=========
+torch.msort
+arg0:Any
+ out:Any
+=========
+torch.less_equal
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.fx.Tracer
+autowrap_modules:Any
+autowrap_functions:Any
+param_shapes_constant:Any
+=========
+torch.linalg.cond
+arg0:Any
+ p:Any
+ out:Any
+=========
+torch.LongStorage
+args:Any
+wrap_storage:Any
+dtype:Any
+device:Any
+=========
+torch.Tensor.cos
+=========
+torch.linalg.tensorsolve
+arg0:Any
+arg1:Any
+ dims:Any
+ out:Any
+=========
+torch.nn.functional.affine_grid
+theta:Any
+size:Any
+align_corners:Any
+=========
+torch.Tensor.square_
+=========
+torch.nn.utils.spectral_norm
+module:Any
+name:Any
+n_power_iterations:Any
+eps:Any
+dim:Any
+=========
+torch.nn.init.kaiming_uniform_
+tensor:Any
+a:Any
+mode:Any
+nonlinearity:Any
+=========
+torch.Tensor.lt
+arg0:Any
+=========
+torch.Tensor.lcm_
+arg0:Any
+=========
+torch.Tensor.inner
+arg0:Any
+=========
+torch.Tensor.logical_xor_
+=========
+torch.linalg.qr
+arg0:Any
+ mode:Any
+ out:Any
+=========
+torch.fmin
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.nn.init.sparse_
+tensor:Any
+sparsity:Any
+std:Any
+=========
+torch.var
+arg0:Any
+arg1:Any
+arg2:Any
+ keepdim:Any
+ out:Any
+=========
+torch.linalg.svd
+arg0:Any
+ full_matrices:Any
+ driver:Any
+ out:Any
+=========
+torch.utils.dlpack.from_dlpack
+ext_tensor:Any
+=========
+torch.Tensor.baddbmm_
+arg0:Any
+arg1:Any
+ beta:Any
+ alpha:Any
+=========
+torch.kaiser_window
+arg0:Any
+ periodic:Any
+ beta:Any
+ dtype:Any
+ layout:Any
+ device:Any
+ requires_grad:Any
+=========
+torch.distributions.transforms.PowerTransform
+exponent:Any
+cache_size:Any
+=========
+torch.distributed.broadcast_object_list
+object_list:Any
+src:Any
+group:Any
+device:Any
+=========
+torch.norm
+input:Any
+p:Any
+dim:Any
+keepdim:Any
+out:Any
+dtype:Any
+=========
+torch.eq
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.Tensor.contiguous
+memory_format:Any
+=========
+torch.Tensor.half
+memory_format:Any
+=========
+torch.Tensor.qr
+some:Any
+=========
+torch.Tensor.fmod
+arg0:Any
+=========
+torch.Tensor.logical_or
+=========
+torch.Tensor.cuda
+device:Any
+ non_blocking:Any
+ memory_format:Any
+=========
+torch.distributed.send
+tensor:Any
+dst:Any
+group:Any
+tag:Any
+=========
+torch.Tensor.is_signed
+=========
+torch.isreal
+arg0:Any
+=========
+torch.hamming_window
+arg0:Any
+ periodic:Any
+ alpha:Any
+ beta:Any
+ dtype:Any
+ layout:Any
+ device:Any
+ requires_grad:Any
+=========
+torch.quantized_max_pool1d
+arg0:Any
+arg1:Any
+ stride:Any
+ padding:Any
+ dilation:Any
+ ceil_mode:Any
+=========
+torch.distributed.reduce
+tensor:Any
+dst:Any
+op:Any
+group:Any
+async_op:Any
+=========
+torch.Tensor.mm
+arg0:Any
+=========
+torch.Tensor.squeeze_
+dim:Any
+=========
+torch.distributed.elastic.agent.server.Worker
+=========
+torch.Tensor.bernoulli_
+p:Any
+ generator:Any
+=========
+torch.Tensor.abs
+=========
+torch.hstack
+arg0:Any
+ out:Any
+=========
+torch.Tensor.bernoulli
+ generator:Any
+=========
+torch.distributed.is_torchelastic_launched
+=========
+torch.max
+arg0:Any
+=========
+torch.Tensor.sort
+dim:Any
+ descending:Any
+=========
+torch.linalg.eigvalsh
+arg0:Any
+ UPLO:Any
+ out:Any
+=========
+torch.set_rng_state
+new_state:Any
+=========
+torch.Tensor.squeeze
+dim:Any
+=========
+torch.Tensor.cosh_
+=========
+torch.Tensor.arccosh
+=========
+torch.le
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.distributions.transforms.StickBreakingTransform
+cache_size:Any
+=========
+torch.randn_like
+arg0:Any
+ dtype:Any
+ layout:Any
+ device:Any
+ requires_grad:Any
+ memory_format:Any
+=========
+torch.Tensor.matrix_exp
+=========
+torch.Tensor.cosh
+=========
+torch.Tensor.float
+memory_format:Any
+=========
+torch.random.manual_seed
+seed:Any
+=========
+torch.slogdet
+arg0:Any
+=========
+torch.Tensor.atan2_
+arg0:Any
+=========
+torch.nn.functional.binary_cross_entropy_with_logits
+input:Any
+target:Any
+weight:Any
+size_average:Any
+reduce:Any
+reduction:Any
+pos_weight:Any
+=========
+torch.addcmul
+arg0:Any
+arg1:Any
+arg2:Any
+ value:Any
+ out:Any
+=========
+torch.nn.utils.prune.random_structured
+=========
+torch.nn.GLU
+dim:Any
+=========
+torch.nn.ConvTranspose1d
+in_channels:Any
+out_channels:Any
+kernel_size:Any
+stride:Any
+padding:Any
+output_padding:Any
+groups:Any
+bias:Any
+dilation:Any
+padding_mode:Any
+device:Any
+dtype:Any
+=========
+torch.nn.InstanceNorm3d
+num_features:Any
+eps:Any
+momentum:Any
+affine:Any
+track_running_stats:Any
+device:Any
+dtype:Any
+=========
+torch.Tensor.arcsinh
+=========
+torch.sign
+arg0:Any
+ out:Any
+=========
+torch.bitwise_and
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.Tensor.tril_
+diagonal:Any
+=========
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError
+=========
+torch.distributions.exp_family.ExponentialFamily
+batch_shape:Any
+event_shape:Any
+validate_args:Any
+=========
+torch.optim.Rprop
+params:Any
+lr:Any
+etas:Any
+step_sizes:Any
+foreach:Any
+maximize:Any
+=========
+torch.Tensor.take
+arg0:Any
+=========
+torch.nn.LSTM
+args:Any
+kwargs:Any
+=========
+torch.are_deterministic_algorithms_enabled
+=========
+torch.distributed.all_gather_object
+object_list:Any
+obj:Any
+group:Any
+=========
+torch.Tensor.bitwise_left_shift
+arg0:Any
+=========
+torch.special.expm1
+arg0:Any
+ out:Any
+=========
+torch.Tensor.multiply_
+arg0:Any
+=========
+torch.optim.lr_scheduler.LambdaLR
+optimizer:Any
+lr_lambda:Any
+last_epoch:Any
+verbose:Any
+=========
+torch.sparse.mm
+arg0:Any
+=========
+torch.special.multigammaln
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.nn.Sequential
+args:Any
+=========
+torch.distributed.elastic.rendezvous.etcd_rendezvous_backend.EtcdRendezvousBackend
+=========
+torch.nn.functional.upsample_nearest
+input:Any
+size:Any
+scale_factor:Any
+=========
+torch.lt
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.nn.functional.softplus
+arg0:Any
+ beta:Any
+ threshold:Any
+=========
+torch.block_diag
+tensors:Any
+=========
+torch.nn.LazyInstanceNorm1d
+eps:Any
+momentum:Any
+affine:Any
+track_running_stats:Any
+device:Any
+dtype:Any
+=========
+torch.cholesky_inverse
+arg0:Any
+ upper:Any
+ out:Any
+=========
+torch.package.PackagingError
+dependency_graph:Any
+=========
+torch.nn.functional.multilabel_soft_margin_loss
+input:Any
+target:Any
+weight:Any
+size_average:Any
+reduce:Any
+reduction:Any
+=========
+torch.utils.data.get_worker_info
+=========
+torch.Tensor.scatter_add
+arg0:Any
+arg1:Any
+arg2:Any
+=========
+torch.Tensor.addbmm
+arg0:Any
+arg1:Any
+ beta:Any
+ alpha:Any
+=========
+torch.Tensor.index_put
+arg0:Any
+arg1:Any
+ accumulate:Any
+=========
+torch.distributions.multinomial.Multinomial
+total_count:Any
+probs:Any
+logits:Any
+validate_args:Any
+=========
+torch.get_default_dtype
+=========
+torch.erfc
+arg0:Any
+ out:Any
+=========
+torch.special.gammainc
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.Tensor.tile
+arg0:Any
+=========
+torch.nn.utils.remove_weight_norm
+module:Any
+name:Any
+=========
+torch.Tensor.sub
+arg0:Any
+ alpha:Any
+=========
+torch.Tensor.divide_
+arg0:Any
+ rounding_mode:Any
+=========
+torch.utils.checkpoint.checkpoint
+=========
+torch.nn.functional.one_hot
+arg0:Any
+ num_classes:Any
+=========
+torch.distributed.gather
+tensor:Any
+gather_list:Any
+dst:Any
+group:Any
+async_op:Any
+=========
+torch.fft.fftn
+arg0:Any
+ s:Any
+ dim:Any
+ norm:Any
+ out:Any
+=========
+torch.utils.data.distributed.DistributedSampler
+args:Any
+kwds:Any
+=========
+torch.Tensor.float_power_
+arg0:Any
+=========
+torch.distributed.optim.ZeroRedundancyOptimizer
+=========
+torch.special.polygamma
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.testing.assert_close
+actual:Any
+expected:Any
+allow_subclasses:Any
+rtol:Any
+atol:Any
+equal_nan:Any
+check_device:Any
+check_dtype:Any
+check_layout:Any
+check_stride:Any
+msg:Any
+=========
+torch.nn.Threshold
+threshold:Any
+value:Any
+inplace:Any
+=========
+torch.log1p
+arg0:Any
+ out:Any
+=========
+torch.nn.init.eye_
+tensor:Any
+=========
+torch.einsum
+args:Any
+=========
+torch.tensordot
+a:Any
+b:Any
+dims:Any
+out:Any
+=========
+torch.Tensor.diagonal
+offset:Any
+ dim1:Any
+ dim2:Any
+=========
+torch.Tensor.logsumexp
+arg0:Any
+ keepdim:Any
+=========
+torch.nn.UpsamplingNearest2d
+size:Any
+scale_factor:Any
+=========
+torch.Tensor.mean
+dim:Any
+ keepdim:Any
+ dtype:Any
+=========
+torch.nn.modules.module.register_module_forward_hook
+hook:Any
+=========
+torch.empty_strided
+arg0:Any
+arg1:Any
+ dtype:Any
+ layout:Any
+ device:Any
+ requires_grad:Any
+ pin_memory:Any
+=========
+torch.distributed.is_initialized
+=========
+torch.Tensor.floor_
+=========
+torch.addmm
+arg0:Any
+arg1:Any
+arg2:Any
+ beta:Any
+ alpha:Any
+ out:Any
+=========
+torch.special.i0
+arg0:Any
+ out:Any
+=========
+torch.Tensor.nelement
+=========
+torch.distributed.elastic.agent.server.local_elastic_agent.LocalElasticAgent
+=========
+torch.Tensor.double
+memory_format:Any
+=========
+torch.nn.utils.rnn.pack_sequence
+sequences:Any
+enforce_sorted:Any
+=========
+torch.distributions.transforms.ComposeTransform
+parts:Any
+cache_size:Any
+=========
+torch.Tensor.clone
+ memory_format:Any
+=========
+torch.nn.PixelUnshuffle
+downscale_factor:Any
+=========
+torch.diff
+arg0:Any
+ n:Any
+ dim:Any
+ prepend:Any
+ append:Any
+=========
+torch.trace
+arg0:Any
+=========
+torch.arctan
+arg0:Any
+ out:Any
+=========
+torch.nn.Conv2d
+in_channels:Any
+out_channels:Any
+kernel_size:Any
+stride:Any
+padding:Any
+dilation:Any
+groups:Any
+bias:Any
+padding_mode:Any
+device:Any
+dtype:Any
+=========
+torch.nn.MaxUnpool2d
+kernel_size:Any
+stride:Any
+padding:Any
+=========
+torch.nn.functional.silu
+input:Any
+inplace:Any
+=========
+torch.linalg.svdvals
+arg0:Any
+ driver:Any
+ out:Any
+=========
+torch.utils.cpp_extension.include_paths
+=========
+torch.Tensor.fill_
+arg0:Any
+=========
+torch.Tensor.q_per_channel_axis
+=========
+torch.distributed.elastic.rendezvous.etcd_store.EtcdStore
+=========
+torch.absolute
+arg0:Any
+ out:Any
+=========
+torch.nn.utils.parametrize.cached
+=========
+torch.Tensor.erfinv_
+=========
+torch.inverse
+arg0:Any
+ out:Any
+=========
+torch.nn.functional.rrelu
+input:Any
+lower:Any
+upper:Any
+training:Any
+inplace:Any
+=========
+torch.Tensor.flatten
+start_dim:Any
+ end_dim:Any
+=========
+torch.Tensor.take_along_dim
+arg0:Any
+arg1:Any
+=========
+torch.linalg.cholesky
+arg0:Any
+ upper:Any
+ out:Any
+=========
+torch.nn.functional.conv_transpose1d
+arg0:Any
+arg1:Any
+ bias:Any
+ stride:Any
+ padding:Any
+ output_padding:Any
+ groups:Any
+ dilation:Any
+=========
+torch.utils.data.IterableDataset
+args:Any
+kwds:Any
+=========
+torch.Tensor.tanh_
+=========
+torch.conj_physical
+arg0:Any
+ out:Any
+=========
+torch.distributions.negative_binomial.NegativeBinomial
+total_count:Any
+probs:Any
+logits:Any
+validate_args:Any
+=========
+torch.nn.functional.triplet_margin_loss
+anchor:Any
+positive:Any
+negative:Any
+margin:Any
+p:Any
+eps:Any
+swap:Any
+size_average:Any
+reduce:Any
+reduction:Any
+=========
+torch.rad2deg
+arg0:Any
+ out:Any
+=========
+torch.nn.functional.hardshrink
+arg0:Any
+ lambd:Any
+=========
+torch.addcdiv
+arg0:Any
+arg1:Any
+arg2:Any
+ value:Any
+ out:Any
+=========
+torch.nn.functional.dropout
+input:Any
+p:Any
+training:Any
+inplace:Any
+=========
+torch.nn.functional.l1_loss
+input:Any
+target:Any
+size_average:Any
+reduce:Any
+reduction:Any
+=========
+torch.IntStorage
+args:Any
+wrap_storage:Any
+dtype:Any
+device:Any
+=========
+torch._assert
+condition:Any
+message:Any
+=========
+torch.nn.ReplicationPad3d
+padding:Any
+=========
+torch.nn.functional.relu_
+arg0:Any
+=========
+torch.Tensor.float_power
+arg0:Any
+=========
+torch.Tensor.dot
+arg0:Any
+=========
+torch.Tensor.neg
+=========
+torch.Tensor.index_copy
+arg0:Any
+arg1:Any
+arg2:Any
+=========
+torch.nn.AdaptiveMaxPool3d
+output_size:Any
+return_indices:Any
+=========
+torch.distributed.algorithms.Joinable
+=========
+torch.Tensor.sub_
+arg0:Any
+ alpha:Any
+=========
+torch.utils.tensorboard.writer.SummaryWriter
+=========
+torch.nn.utils.prune.RandomUnstructured
+=========
+torch.nn.TransformerDecoder
+decoder_layer:Any
+num_layers:Any
+norm:Any
+=========
+torch.Tensor.real
+=========
+torch.Tensor.is_quantized
+=========
+torch.arange
+start:Any
+arg1:Any
+ step:Any
+ out:Any
+ dtype:Any
+ layout:Any
+ device:Any
+ requires_grad:Any
+=========
+torch.is_complex
+arg0:Any
+=========
+torch.linalg.multi_dot
+arg0:Any
+ out:Any
+=========
+torch.Tensor.mvlgamma_
+arg0:Any
+=========
+torch.Tensor.fmod_
+arg0:Any
+=========
+torch.nn.LocalResponseNorm
+size:Any
+alpha:Any
+beta:Any
+k:Any
+=========
+torch.distributed.elastic.agent.server.WorkerSpec
+=========
+torch.fft.ifftn
+arg0:Any
+ s:Any
+ dim:Any
+ norm:Any
+ out:Any
+=========
+torch.nn.utils.prune.remove
+=========
+torch.Tensor.log2
+=========
+torch.as_strided
+arg0:Any
+arg1:Any
+arg2:Any
+ storage_offset:Any
+=========
+torch.special.digamma
+arg0:Any
+ out:Any
+=========
+torch.nn.functional.softmin
+input:Any
+dim:Any
+_stacklevel:Any
+dtype:Any
+=========
+torch.Tensor.bitwise_or_
+=========
+torch.Tensor.index_put_
+arg0:Any
+arg1:Any
+ accumulate:Any
+=========
+torch.nn.functional.dropout3d
+input:Any
+p:Any
+training:Any
+inplace:Any
+=========
+torch.distributions.continuous_bernoulli.ContinuousBernoulli
+probs:Any
+logits:Any
+lims:Any
+validate_args:Any
+=========
+torch.nn.utils.parametrize.ParametrizationList
+modules:Any
+original:Any
+unsafe:Any
+=========
+torch.frac
+arg0:Any
+ out:Any
+=========
+torch.bartlett_window
+arg0:Any
+ periodic:Any
+ dtype:Any
+ layout:Any
+ device:Any
+ requires_grad:Any
+=========
+torch.dot
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.argmin
+arg0:Any
+ dim:Any
+ keepdim:Any
+=========
+torch.Tensor.narrow
+arg0:Any
+arg1:Any
+arg2:Any
+=========
+torch.Tensor.hardshrink
+lambd:Any
+=========
+torch.distributions.constraints.Constraint
+=========
+torch.overrides.get_ignored_functions
+=========
+torch.pinverse
+arg0:Any
+ rcond:Any
+=========
+torch.fft.ifft
+arg0:Any
+ n:Any
+ dim:Any
+ norm:Any
+ out:Any
+=========
+torch.nn.GELU
+approximate:Any
+=========
+torch.Tensor.abs_
+=========
+torch.jit.unused
+fn:Any
+=========
+torch.Tensor.new_empty
+arg0:Any
+ dtype:Any
+ device:Any
+ requires_grad:Any
+=========
+torch.Tensor.bmm
+arg0:Any
+=========
+torch.Tensor.orgqr
+arg0:Any
+=========
+torch.nn.RNN
+args:Any
+kwargs:Any
+=========
+torch.fx.wrap
+fn_or_name:Any
+=========
+torch.Tensor.cumprod_
+arg0:Any
+ dtype:Any
+=========
+torch.Tensor.view_as
+arg0:Any
+=========
+torch.swapaxes
+arg0:Any
+arg1:Any
+arg2:Any
+=========
+torch.Tensor.select
+arg0:Any
+arg1:Any
+=========
+torch.clip
+arg0:Any
+ min:Any
+ max:Any
+ out:Any
+=========
+torch.normal
+arg0:Any
+arg1:Any
+ generator:Any
+ out:Any
+=========
+torch.pca_lowrank
+A:Any
+q:Any
+center:Any
+niter:Any
+=========
+torch.nn.Dropout2d
+p:Any
+inplace:Any
+=========
+torch.Tensor.lu
+pivot:Any
+get_infos:Any
+=========
+torch.Tensor.logcumsumexp
+arg0:Any
+=========
+torch.nn.functional.smooth_l1_loss
+input:Any
+target:Any
+size_average:Any
+reduce:Any
+reduction:Any
+beta:Any
+=========
+torch.is_grad_enabled
+=========
+torch.Tensor.tolist
+=========
+torch.Tensor.logical_xor
+=========
+torch.Tensor.unbind
+dim:Any
+=========
+torch.nn.functional.avg_pool2d
+arg0:Any
+arg1:Any
+ stride:Any
+ padding:Any
+ ceil_mode:Any
+ count_include_pad:Any
+ divisor_override:Any
+=========
+torch.Tensor.hypot
+arg0:Any
+=========
+torch.distributed.all_gather_multigpu
+output_tensor_lists:Any
+input_tensor_list:Any
+group:Any
+async_op:Any
+=========
+torch.mode
+arg0:Any
+ dim:Any
+ keepdim:Any
+ out:Any
+=========
+torch.gather
+arg0:Any
+arg1:Any
+arg2:Any
+ sparse_grad:Any
+ out:Any
+=========
+torch.nn.EmbeddingBag
+num_embeddings:Any
+embedding_dim:Any
+max_norm:Any
+norm_type:Any
+scale_grad_by_freq:Any
+mode:Any
+sparse:Any
+_weight:Any
+include_last_offset:Any
+padding_idx:Any
+device:Any
+dtype:Any
+=========
+torch.Tensor.asin
+=========
+torch.Tensor.floor
+=========
+torch.fft.rfft2
+arg0:Any
+ s:Any
+ dim:Any
+=========
+torch.fft.hfft
+arg0:Any
+ n:Any
+ dim:Any
+ norm:Any
+ out:Any
+=========
+torch.mm
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.nn.Upsample
+size:Any
+scale_factor:Any
+mode:Any
+align_corners:Any
+recompute_scale_factor:Any
+=========
+torch.Tensor.atan_
+=========
+torch.jit.isinstance
+obj:Any
+target_type:Any
+=========
+torch.cat
+arg0:Any
+ dim:Any
+ out:Any
+=========
+torch.fx.Node
+graph:Any
+name:Any
+op:Any
+target:Any
+args:Any
+kwargs:Any
+return_type:Any
+=========
+torch.ldexp
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.distributed.broadcast_multigpu
+tensor_list:Any
+src:Any
+group:Any
+async_op:Any
+src_tensor:Any
+=========
+torch.Tensor.cumsum_
+arg0:Any
+ dtype:Any
+=========
+torch.sgn
+arg0:Any
+ out:Any
+=========
+torch.nn.functional.conv_transpose3d
+arg0:Any
+arg1:Any
+ bias:Any
+ stride:Any
+ padding:Any
+ output_padding:Any
+ groups:Any
+ dilation:Any
+=========
+torch.Tensor.sparse_mask
+arg0:Any
+=========
+torch.Tensor.ldexp_
+arg0:Any
+=========
+torch.Tensor.greater_equal
+arg0:Any
+=========
+torch.nn.SoftMarginLoss
+size_average:Any
+reduce:Any
+reduction:Any
+=========
+torch.Tensor.rsqrt
+=========
+torch.nn.Tanhshrink
+=========
+torch.prod
+arg0:Any
+ dtype:Any
+=========
+torch.nn.functional.fractional_max_pool2d
+args:Any
+kwargs:Any
+=========
+torch.nn.Module
+=========
+torch.bitwise_xor
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.nn.functional.logsigmoid
+arg0:Any
+=========
+torch.asin
+arg0:Any
+ out:Any
+=========
+torch.tril_indices
+arg0:Any
+arg1:Any
+ offset:Any
+ dtype:Any
+ device:Any
+ layout:Any
+=========
+torch.Tensor.masked_fill
+arg0:Any
+arg1:Any
+=========
+torch.jit.optimize_for_inference
+mod:Any
+other_methods:Any
+=========
+torch.special.gammaln
+arg0:Any
+ out:Any
+=========
+torch.Tensor.data_ptr
+=========
+torch.distributed.elastic.timer.expires
+=========
+torch.utils.mobile_optimizer.optimize_for_mobile
+=========
+torch.Tensor.div_
+arg0:Any
+ rounding_mode:Any
+=========
+torch.inner
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.Tensor.true_divide_
+arg0:Any
+=========
+torch.matrix_exp
+arg0:Any
+=========
+torch.nn.MSELoss
+size_average:Any
+reduce:Any
+reduction:Any
+=========
+torch.nn.AvgPool2d
+kernel_size:Any
+stride:Any
+padding:Any
+ceil_mode:Any
+count_include_pad:Any
+divisor_override:Any
+=========
+torch.conj
+arg0:Any
+=========
+torch.distributions.transforms.CorrCholeskyTransform
+cache_size:Any
+=========
+torch.aminmax
+arg0:Any
+ dim:Any
+ keepdim:Any
+ out:Any
+=========
+torch.mean
+arg0:Any
+ dtype:Any
+=========
+torch.Tensor.logit_
+=========
+torch.reshape
+arg0:Any
+arg1:Any
+=========
+torch.Tensor.round
+decimals:Any
+=========
+torch.nansum
+arg0:Any
+ dtype:Any
+=========
+torch.distributed.elastic.events.get_logging_handler
+=========
+torch.Tensor.repeat_interleave
+arg0:Any
+ dim:Any
+ output_size:Any
+=========
+torch.nanquantile
+arg0:Any
+arg1:Any
+ dim:Any
+ keepdim:Any
+ interpolation:Any
+ out:Any
+=========
+torch.distributed.irecv
+tensor:Any
+src:Any
+group:Any
+tag:Any
+=========
+torch.distributions.bernoulli.Bernoulli
+probs:Any
+logits:Any
+validate_args:Any
+=========
+torch.distributed.scatter_object_list
+scatter_object_output_list:Any
+scatter_object_input_list:Any
+src:Any
+group:Any
+=========
+torch.nn.functional.upsample_bilinear
+input:Any
+size:Any
+scale_factor:Any
+=========
+torch.bucketize
+arg0:Any
+arg1:Any
+ out_int32:Any
+ right:Any
+ out:Any
+=========
+torch.get_num_interop_threads
+=========
+torch.no_grad
+=========
+torch.Tensor.resolve_conj
+=========
+torch.sparse.softmax
+arg0:Any
+arg1:Any
+ dtype:Any
+=========
+torch.Tensor.isneginf
+=========
+torch.atleast_1d
+tensors:Any
+=========
+torch.nn.functional.layer_norm
+input:Any
+normalized_shape:Any
+weight:Any
+bias:Any
+eps:Any
+=========
+torch.Tensor.addmv_
+arg0:Any
+arg1:Any
+ beta:Any
+ alpha:Any
+=========
+torch.distributions.binomial.Binomial
+total_count:Any
+probs:Any
+logits:Any
+validate_args:Any
+=========
+torch.is_floating_point
+arg0:Any
+=========
+torch.Tensor.fill_diagonal_
+arg0:Any
+ wrap:Any
+=========
+torch.Tensor.bitwise_left_shift_
+arg0:Any
+=========
+torch.Tensor.dsplit
+arg0:Any
+=========
+torch.fmax
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.utils.benchmark.CallgrindStats
+=========
+torch.special.xlog1py
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.distributed.isend
+tensor:Any
+dst:Any
+group:Any
+tag:Any
+=========
+torch.nn.TransformerEncoder
+encoder_layer:Any
+num_layers:Any
+norm:Any
+enable_nested_tensor:Any
+mask_check:Any
+=========
+torch.nn.functional.adaptive_max_pool2d
+args:Any
+kwargs:Any
+=========
+torch.real
+arg0:Any
+=========
+torch.nn.modules.module.register_module_forward_pre_hook
+hook:Any
+=========
+torch.nn.BatchNorm3d
+num_features:Any
+eps:Any
+momentum:Any
+affine:Any
+track_running_stats:Any
+device:Any
+dtype:Any
+=========
+torch.Tensor.is_contiguous
+memory_format:Any
+=========
+torch.nn.MaxPool1d
+kernel_size:Any
+stride:Any
+padding:Any
+dilation:Any
+return_indices:Any
+ceil_mode:Any
+=========
+torch.nn.functional.gumbel_softmax
+logits:Any
+tau:Any
+hard:Any
+eps:Any
+dim:Any
+=========
+torch.nn.parameter.UninitializedParameter
+requires_grad:Any
+device:Any
+dtype:Any
+=========
+torch.nn.functional.pixel_shuffle
+arg0:Any
+arg1:Any
+=========
+torch.nn.AdaptiveAvgPool3d
+output_size:Any
+=========
+torch.QInt32Storage
+args:Any
+wrap_storage:Any
+dtype:Any
+device:Any
+=========
+torch.Tensor.positive
+=========
+torch.distributions.categorical.Categorical
+probs:Any
+logits:Any
+validate_args:Any
+=========
+torch.Tensor.logical_and
+=========
+torch.sort
+arg0:Any
+ dim:Any
+ descending:Any
+ stable:Any
+ out:Any
+=========
+torch.concat
+arg0:Any
+ dim:Any
+ out:Any
+=========
+torch.is_nonzero
+arg0:Any
+=========
+torch.Tensor.normal_
+mean:Any
+ std:Any
+ generator:Any
+=========
+torch.Tensor.ceil_
+=========
+torch.Tensor.index_select
+arg0:Any
+arg1:Any
+=========
+torch.Tensor.isreal
+=========
+torch.distributions.log_normal.LogNormal
+loc:Any
+scale:Any
+validate_args:Any
+=========
+torch.Tensor.corrcoef
+=========
+torch.Tensor.xlogy
+arg0:Any
+=========
+torch.Tensor.absolute_
+=========
+torch.nn.functional.bilinear
+arg0:Any
+arg1:Any
+arg2:Any
+ bias:Any
+=========
+torch.utils.data.SequentialSampler
+args:Any
+kwds:Any
+=========
+torch.nn.SiLU
+inplace:Any
+=========
+torch.flipud
+arg0:Any
+=========
+torch.distributed.FileStore
+=========
+torch.nn.LPPool1d
+norm_type:Any
+kernel_size:Any
+stride:Any
+ceil_mode:Any
+=========
+torch.Tensor.to
+arg0:Any
+arg1:Any
+=========
+torch.distributions.distribution.Distribution
+batch_shape:Any
+event_shape:Any
+validate_args:Any
+=========
+torch.nn.utils.rnn.pack_padded_sequence
+input:Any
+lengths:Any
+batch_first:Any
+enforce_sorted:Any
+=========
+torch.utils.data.Sampler
+args:Any
+kwds:Any
+=========
+torch.where
+arg0:Any
+arg1:Any
+arg2:Any
+=========
+torch.linalg.vector_norm
+arg0:Any
+ ord:Any
+ dim:Any
+ keepdim:Any
+ dtype:Any
+ out:Any
+=========
+torch.resolve_neg
+arg0:Any
+=========
+torch.onnx.export
+model:Any
+args:Any
+f:Any
+export_params:Any
+verbose:Any
+training:Any
+input_names:Any
+output_names:Any
+operator_export_type:Any
+opset_version:Any
+do_constant_folding:Any
+dynamic_axes:Any
+keep_initializers_as_inputs:Any
+custom_opsets:Any
+export_modules_as_functions:Any
+=========
+torch.sparse_coo_tensor
+arg0:Any
+arg1:Any
+ size:Any
+ dtype:Any
+ device:Any
+ requires_grad:Any
+=========
+torch.scatter_add
+arg0:Any
+arg1:Any
+arg2:Any
+arg3:Any
+=========
+torch.lerp
+arg0:Any
+arg1:Any
+arg2:Any
+ out:Any
+=========
+torch.rand
+arg0:Any
+ out:Any
+ dtype:Any
+ layout:Any
+ device:Any
+ requires_grad:Any
+=========
+torch.Tensor.arctan
+=========
+torch.isin
+arg0:Any
+arg1:Any
+ assume_unique:Any
+ invert:Any
+=========
+torch.Tensor.vsplit
+arg0:Any
+=========
+torch.lstsq
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.gt
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.squeeze
+arg0:Any
+ dim:Any
+ out:Any
+=========
+torch.optim.lr_scheduler.ConstantLR
+optimizer:Any
+factor:Any
+total_iters:Any
+last_epoch:Any
+verbose:Any
+=========
+torch.linalg.inv
+arg0:Any
+ out:Any
+=========
+torch.tanh
+arg0:Any
+ out:Any
+=========
+torch.Tensor.le_
+arg0:Any
+=========
+torch.nn.MarginRankingLoss
+margin:Any
+size_average:Any
+reduce:Any
+reduction:Any
+=========
+torch.scatter
+arg0:Any
+arg1:Any
+arg2:Any
+arg3:Any
+=========
+torch.nn.functional.hardsigmoid
+input:Any
+inplace:Any
+=========
+torch.nn.AdaptiveLogSoftmaxWithLoss
+in_features:Any
+n_classes:Any
+cutoffs:Any
+div_value:Any
+head_bias:Any
+device:Any
+dtype:Any
+=========
+torch.utils.checkpoint.checkpoint_sequential
+=========
+torch.Tensor.bool
+memory_format:Any
+=========
+torch.nn.functional.sigmoid
+input:Any
+=========
+torch.Tensor.cov
+ correction:Any
+ fweights:Any
+ aweights:Any
+=========
+torch.distributed.elastic.rendezvous.RendezvousHandler
+=========
+torch.utils.cpp_extension.CUDAExtension
+=========
+torch.Tensor.asinh
+=========
+torch.gcd
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.qr
+arg0:Any
+ some:Any
+ out:Any
+=========
+torch.nn.Linear
+in_features:Any
+out_features:Any
+bias:Any
+device:Any
+dtype:Any
+=========
+torch.tensor_split
+arg0:Any
+arg1:Any
+ dim:Any
+=========
+torch.special.zeta
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.nn.utils.prune.Identity
+=========
+torch.nonzero
+arg0:Any
+ out:Any
+ as_tuple:Any
+=========
+torch.nn.functional.max_unpool1d
+input:Any
+indices:Any
+kernel_size:Any
+stride:Any
+padding:Any
+output_size:Any
+=========
+torch.Tensor.ger
+arg0:Any
+=========
+torch.nn.utils.rnn.pad_packed_sequence
+sequence:Any
+batch_first:Any
+padding_value:Any
+total_length:Any
+=========
+torch.Tensor.frexp
+arg0:Any
+=========
+torch.ShortStorage
+args:Any
+wrap_storage:Any
+dtype:Any
+device:Any
+=========
+torch.Tensor.unsqueeze_
+arg0:Any
+=========
+torch.nn.functional.gaussian_nll_loss
+input:Any
+target:Any
+var:Any
+full:Any
+eps:Any
+reduction:Any
+=========
+torch.std_mean
+arg0:Any
+arg1:Any
+arg2:Any
+ keepdim:Any
+ out:Any
+=========
+torch.Tensor.bitwise_not
+=========
+torch.distributed.elastic.metrics.prof
+=========
+torch.nn.Sigmoid
+=========
+torch.Tensor.std
+arg0:Any
+ unbiased:Any
+ keepdim:Any
+=========
+torch.Tensor.log
+=========
+torch.logsumexp
+arg0:Any
+arg1:Any
+ keepdim:Any
+ out:Any
+=========
+torch.distributed.elastic.rendezvous.dynamic_rendezvous.create_handler
+=========
+torch.nn.functional.softshrink
+arg0:Any
+ lambd:Any
+=========
+torch.Tensor.digamma_
+=========
+torch.Tensor.divide
+arg0:Any
+ rounding_mode:Any
+=========
+torch.special.logsumexp
+arg0:Any
+arg1:Any
+ keepdim:Any
+ out:Any
+=========
+torch.nn.Unfold
+kernel_size:Any
+dilation:Any
+padding:Any
+stride:Any
+=========
+torch.distributions.constraint_registry.ConstraintRegistry
+=========
+torch.Tensor.trunc_
+=========
+torch.overrides.has_torch_function
+=========
+torch.Tensor.mul
+arg0:Any
+=========
+torch.nn.RNNBase
+mode:Any
+input_size:Any
+hidden_size:Any
+num_layers:Any
+bias:Any
+batch_first:Any
+dropout:Any
+bidirectional:Any
+proj_size:Any
+device:Any
+dtype:Any
+=========
+torch.equal
+arg0:Any
+arg1:Any
+=========
+torch.Tensor.not_equal
+arg0:Any
+=========
+torch.save
+obj:Any
+f:Any
+pickle_module:Any
+pickle_protocol:Any
+_use_new_zipfile_serialization:Any
+=========
+torch.nn.functional.pad
+arg0:Any
+arg1:Any
+ mode:Any
+ value:Any
+=========
+torch.Tensor.solve
+other:Any
+=========
+torch.clamp
+arg0:Any
+ min:Any
+ max:Any
+ out:Any
+=========
+torch.nn.LazyInstanceNorm3d
+eps:Any
+momentum:Any
+affine:Any
+track_running_stats:Any
+device:Any
+dtype:Any
+=========
+torch.FloatStorage
+args:Any
+wrap_storage:Any
+dtype:Any
+device:Any
+=========
+torch.distributed.is_nccl_available
+=========
+torch.Tensor.addbmm_
+arg0:Any
+arg1:Any
+ beta:Any
+ alpha:Any
+=========
+torch.column_stack
+arg0:Any
+ out:Any
+=========
+torch.distributed.algorithms.Join
+joinables:Any
+enable:Any
+throw_on_early_termination:Any
+kwargs:Any
+=========
+torch.nn.modules.module.register_module_full_backward_hook
+hook:Any
+=========
+torch.nn.functional.margin_ranking_loss
+input1:Any
+input2:Any
+target:Any
+margin:Any
+size_average:Any
+reduce:Any
+reduction:Any
+=========
+torch.distributions.kumaraswamy.Kumaraswamy
+concentration1:Any
+concentration0:Any
+validate_args:Any
+=========
+torch.nn.functional.instance_norm
+input:Any
+running_mean:Any
+running_var:Any
+weight:Any
+bias:Any
+use_input_stats:Any
+momentum:Any
+eps:Any
+=========
+torch.Tensor.numpy
+ force:Any
+=========
+torch.Tensor.sgn_
+=========
+torch.distributions.transforms.LowerCholeskyTransform
+cache_size:Any
+=========
+torch.linalg.eigh
+arg0:Any
+ UPLO:Any
+ out:Any
+=========
+torch.fft.fft2
+arg0:Any
+ s:Any
+ dim:Any
+=========
+torch.Tensor.true_divide
+arg0:Any
+=========
+torch.t
+arg0:Any
+=========
+torch.nn.KLDivLoss
+size_average:Any
+reduce:Any
+reduction:Any
+log_target:Any
+=========
+torch.cos
+arg0:Any
+ out:Any
+=========
+torch.distributions.transforms.SigmoidTransform
+cache_size:Any
+=========
+torch.Tensor.is_leaf
+=========
+torch.Tensor.bitwise_right_shift_
+arg0:Any
+=========
+torch.xlogy
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.Tensor.sign
+=========
+torch.atanh
+arg0:Any
+ out:Any
+=========
+torch.distributed.init_process_group
+backend:Any
+init_method:Any
+timeout:Any
+world_size:Any
+rank:Any
+store:Any
+group_name:Any
+pg_options:Any
+=========
+torch.Tensor.sigmoid_
+=========
+torch.fft.irfft
+arg0:Any
+ n:Any
+ dim:Any
+ norm:Any
+ out:Any
+=========
+torch.permute
+arg0:Any
+arg1:Any
+=========
+torch.optim.SGD
+params:Any
+lr:Any
+momentum:Any
+dampening:Any
+weight_decay:Any
+nesterov:Any
+maximize:Any
+foreach:Any
+differentiable:Any
+=========
+torch.Tensor.diff
+n:Any
+ dim:Any
+ prepend:Any
+ append:Any
+=========
+torch.nn.LogSigmoid
+=========
+torch.Tensor.acos_
+=========
+torch.distributions.cauchy.Cauchy
+loc:Any
+scale:Any
+validate_args:Any
+=========
+torch.lu
+args:Any
+kwargs:Any
+=========
+torch.initial_seed
+=========
+torch.utils.data.BatchSampler
+args:Any
+kwds:Any
+=========
+torch.nn.functional.relu6
+input:Any
+inplace:Any
+=========
+torch.optim.Adamax
+params:Any
+lr:Any
+betas:Any
+eps:Any
+weight_decay:Any
+foreach:Any
+maximize:Any
+=========
+torch.nn.functional.hardswish
+input:Any
+inplace:Any
+=========
+torch.nn.functional.avg_pool3d
+arg0:Any
+arg1:Any
+ stride:Any
+ padding:Any
+ ceil_mode:Any
+ count_include_pad:Any
+ divisor_override:Any
+=========
+torch.nn.utils.parametrizations.orthogonal
+module:Any
+name:Any
+orthogonal_map:Any
+use_trivialization:Any
+=========
+torch.sspaddmm
+arg0:Any
+arg1:Any
+arg2:Any
+ beta:Any
+ alpha:Any
+ out:Any
+=========
+torch.nn.parameter.Parameter
+data:Any
+requires_grad:Any
+=========
+torch.Tensor.sinc_
+=========
+torch.overrides.wrap_torch_function
+dispatcher:Any
+=========
+torch.nn.Embedding
+num_embeddings:Any
+embedding_dim:Any
+padding_idx:Any
+max_norm:Any
+norm_type:Any
+scale_grad_by_freq:Any
+sparse:Any
+_weight:Any
+device:Any
+dtype:Any
+=========
+torch.nn.functional.hardtanh
+input:Any
+min_val:Any
+max_val:Any
+inplace:Any
+=========
+torch.full_like
+arg0:Any
+arg1:Any
+arg2:Any
+ dtype:Any
+ layout:Any
+ device:Any
+ requires_grad:Any
+ memory_format:Any
+=========
+torch.optim.RAdam
+params:Any
+lr:Any
+betas:Any
+eps:Any
+weight_decay:Any
+foreach:Any
+=========
+torch.distributions.von_mises.VonMises
+loc:Any
+concentration:Any
+validate_args:Any
+=========
+torch.optim.lr_scheduler.ChainedScheduler
+schedulers:Any
+=========
+torch.nn.ParameterDict
+parameters:Any
+=========
+torch.nn.MaxPool2d
+kernel_size:Any
+stride:Any
+padding:Any
+dilation:Any
+return_indices:Any
+ceil_mode:Any
+=========
+torch.Tensor.as_subclass
+arg0:Any
+=========
+torch.poisson
+arg0:Any
+ generator:Any
+=========
+torch.linalg.det
+arg0:Any
+ out:Any
+=========
+torch.Tensor.histogram
+arg0:Any
+arg1:Any
+ range:Any
+ weight:Any
+ density:Any
+=========
+torch.utils.benchmark.FunctionCounts
+=========
+torch.Tensor.floor_divide
+arg0:Any
+=========
+torch.bitwise_not
+arg0:Any
+ out:Any
+=========
+torch.nn.LeakyReLU
+negative_slope:Any
+inplace:Any
+=========
+torch.bincount
+arg0:Any
+ weights:Any
+ minlength:Any
+=========
+torch.nn.CosineEmbeddingLoss
+margin:Any
+size_average:Any
+reduce:Any
+reduction:Any
+=========
+torch.ge
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.Tensor.add_
+arg0:Any
+ alpha:Any
+=========
+torch.nn.utils.clip_grad_value_
+parameters:Any
+clip_value:Any
+=========
+torch.Tensor.sin_
+=========
+torch.resolve_conj
+arg0:Any
+=========
+torch.Tensor.swapaxes
+arg0:Any
+arg1:Any
+=========
+torch.logical_and
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.distributed.elastic.rendezvous.RendezvousTimeoutError
+=========
+torch.nn.functional.interpolate
+input:Any
+size:Any
+scale_factor:Any
+mode:Any
+align_corners:Any
+recompute_scale_factor:Any
+antialias:Any
+=========
+torch.QUInt4x2Storage
+args:Any
+wrap_storage:Any
+dtype:Any
+device:Any
+=========
+torch.utils.benchmark.Measurement
+=========
+torch.nn.FractionalMaxPool3d
+kernel_size:Any
+output_size:Any
+output_ratio:Any
+return_indices:Any
+_random_samples:Any
+=========
+torch.histogram
+arg0:Any
+arg1:Any
+ range:Any
+ weight:Any
+ density:Any
+ out:Any
+=========
+torch.nn.LazyConv1d
+out_channels:Any
+kernel_size:Any
+stride:Any
+padding:Any
+dilation:Any
+groups:Any
+bias:Any
+padding_mode:Any
+device:Any
+dtype:Any
+=========
+torch.cummax
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.Tensor.log1p
+=========
+torch.utils.model_zoo.load_url
+=========
+torch.zeros_like
+arg0:Any
+ dtype:Any
+ layout:Any
+ device:Any
+ requires_grad:Any
+ memory_format:Any
+=========
+torch.nn.LazyConvTranspose3d
+out_channels:Any
+kernel_size:Any
+stride:Any
+padding:Any
+output_padding:Any
+groups:Any
+bias:Any
+dilation:Any
+padding_mode:Any
+device:Any
+dtype:Any
+=========
+torch.nn.InstanceNorm2d
+num_features:Any
+eps:Any
+momentum:Any
+affine:Any
+track_running_stats:Any
+device:Any
+dtype:Any
+=========
+torch.cumulative_trapezoid
+arg0:Any
+ x:Any
+ dx:Any
+ dim:Any
+=========
+torch.atan2
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.nn.GRUCell
+input_size:Any
+hidden_size:Any
+bias:Any
+device:Any
+dtype:Any
+=========
+torch.mv
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.Tensor.rot90
+arg0:Any
+arg1:Any
+=========
+torch.nn.NLLLoss
+weight:Any
+size_average:Any
+ignore_index:Any
+reduce:Any
+reduction:Any
+=========
+torch.distributed.elastic.multiprocessing.errors.ProcessFailure
+=========
+torch.Tensor.int_repr
+=========
+torch.Tensor.i0_
+=========
+torch.nn.CosineSimilarity
+dim:Any
+eps:Any
+=========
+torch.fft.fftshift
+arg0:Any
+ dim:Any
+=========
+torch.ones_like
+arg0:Any
+ dtype:Any
+ layout:Any
+ device:Any
+ requires_grad:Any
+ memory_format:Any
+=========
+torch.nn.functional.glu
+input:Any
+dim:Any
+=========
+torch.Tensor.log_
+=========
+torch.distributed.TCPStore
+=========
+torch.Tensor.igamma_
+arg0:Any
+=========
+torch.erf
+arg0:Any
+ out:Any
+=========
+torch.distributions.gumbel.Gumbel
+loc:Any
+scale:Any
+validate_args:Any
+=========
+torch.optim.LBFGS
+params:Any
+lr:Any
+max_iter:Any
+max_eval:Any
+tolerance_grad:Any
+tolerance_change:Any
+history_size:Any
+line_search_fn:Any
+=========
+torch.special.expit
+arg0:Any
+ out:Any
+=========
+torch.multinomial
+arg0:Any
+arg1:Any
+ replacement:Any
+ generator:Any
+ out:Any
+=========
+torch.Tensor.argsort
+dim:Any
+ descending:Any
+=========
+torch.nn.LazyConvTranspose1d
+out_channels:Any
+kernel_size:Any
+stride:Any
+padding:Any
+output_padding:Any
+groups:Any
+bias:Any
+dilation:Any
+padding_mode:Any
+device:Any
+dtype:Any
+=========
+torch.nn.CTCLoss
+blank:Any
+reduction:Any
+zero_infinity:Any
+=========
+torch.distributions.relaxed_bernoulli.RelaxedBernoulli
+temperature:Any
+probs:Any
+logits:Any
+validate_args:Any
+=========
+torch.distributions.transforms.TanhTransform
+cache_size:Any
+=========
+torch.nn.functional.upsample
+input:Any
+size:Any
+scale_factor:Any
+mode:Any
+align_corners:Any
+=========
+torch.Tensor.clip_
+min:Any
+ max:Any
+=========
+torch.Tensor.gt_
+arg0:Any
+=========
+torch.package.EmptyMatchError
+=========
+torch.is_tensor
+obj:Any
+=========
+torch.Tensor.detach
+arg0:Any
+=========
+torch.bitwise_or
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.nn.utils.clip_grad_norm_
+parameters:Any
+max_norm:Any
+norm_type:Any
+error_if_nonfinite:Any
+=========
+torch.utils.data.WeightedRandomSampler
+args:Any
+kwds:Any
+=========
+torch.Tensor.trunc
+=========
+torch.Tensor.q_zero_point
+=========
+torch.fft.rfftn
+arg0:Any
+ s:Any
+ dim:Any
+ norm:Any
+ out:Any
+=========
+torch.nn.functional.lp_pool1d
+input:Any
+norm_type:Any
+kernel_size:Any
+stride:Any
+ceil_mode:Any
+=========
+torch.nn.LazyLinear
+out_features:Any
+bias:Any
+device:Any
+dtype:Any
+=========
+torch.Tensor.lcm
+arg0:Any
+=========
+torch.frombuffer
+arg0:Any
+arg2:Any
+ count:Any
+ offset:Any
+ requires_grad:Any
+=========
+torch.Tensor.atanh_
+arg0:Any
+=========
+torch.distributions.lkj_cholesky.LKJCholesky
+dim:Any
+concentration:Any
+validate_args:Any
+=========
+torch.div
+arg0:Any
+arg1:Any
+ rounding_mode:Any
+ out:Any
+=========
+torch.Tensor.lgamma_
+=========
+torch.nn.ConstantPad2d
+padding:Any
+value:Any
+=========
+torch.ComplexFloatStorage
+args:Any
+wrap_storage:Any
+dtype:Any
+device:Any
+=========
+torch.nn.parameter.UninitializedBuffer
+requires_grad:Any
+device:Any
+dtype:Any
+=========
+torch.Tensor.expm1
+=========
+torch.Tensor.is_pinned
+=========
+torch.nn.Transformer
+d_model:Any
+nhead:Any
+num_encoder_layers:Any
+num_decoder_layers:Any
+dim_feedforward:Any
+dropout:Any
+activation:Any
+custom_encoder:Any
+custom_decoder:Any
+layer_norm_eps:Any
+batch_first:Any
+norm_first:Any
+device:Any
+dtype:Any
+=========
+torch.Tensor.det
+=========
+torch.Tensor.reciprocal
+=========
+torch.Tensor.eq_
+arg0:Any
+=========
+torch.nn.functional.huber_loss
+input:Any
+target:Any
+reduction:Any
+delta:Any
+=========
+torch.Tensor.roll
+arg0:Any
+arg1:Any
+=========
+torch.distributed.elastic.agent.server.api.RunResult
+=========
+torch.Tensor.fliplr
+=========
+torch.linalg.inv_ex
+arg0:Any
+ check_errors:Any
+ out:Any
+=========
+torch.cdist
+x1:Any
+x2:Any
+p:Any
+compute_mode:Any
+=========
+torch.Tensor.ormqr
+arg0:Any
+arg1:Any
+ left:Any
+ transpose:Any
+=========
+torch.copysign
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.outer
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.Tensor.div
+arg0:Any
+ rounding_mode:Any
+=========
+torch.Tensor.prod
+dim:Any
+ keepdim:Any
+ dtype:Any
+=========
+torch.distributions.mixture_same_family.MixtureSameFamily
+mixture_distribution:Any
+component_distribution:Any
+validate_args:Any
+=========
+torch.distributed.elastic.rendezvous.c10d_rendezvous_backend.create_backend
+=========
+torch.nn.functional.hardtanh_
+arg0:Any
+ min_val:Any
+ max_val:Any
+=========
+torch.nn.functional.softmax
+input:Any
+dim:Any
+_stacklevel:Any
+dtype:Any
+=========
+torch.futures.Future
+devices:Any
+=========
+torch.Tensor.amin
+dim:Any
+ keepdim:Any
+=========
+torch.nn.utils.prune.CustomFromMask
+=========
+torch.set_flush_denormal
+arg0:Any
+=========
+torch.stft
+input:Any
+n_fft:Any
+hop_length:Any
+win_length:Any
+window:Any
+center:Any
+pad_mode:Any
+normalized:Any
+onesided:Any
+return_complex:Any
+=========
+torch.Tensor.transpose
+arg0:Any
+arg1:Any
+=========
+torch.Tensor.sign_
+=========
+torch.distributed.HashStore
+=========
+torch.log10
+arg0:Any
+ out:Any
+=========
+torch.special.exp2
+arg0:Any
+ out:Any
+=========
+torch.Tensor.eig
+eigenvectors:Any
+=========
+torch.nn.utils.vector_to_parameters
+vec:Any
+parameters:Any
+=========
+torch.utils.data.ConcatDataset
+args:Any
+kwds:Any
+=========
+torch.Tensor.tan_
+=========
+torch.nn.HingeEmbeddingLoss
+margin:Any
+size_average:Any
+reduce:Any
+reduction:Any
+=========
+torch.Tensor.xlogy_
+arg0:Any
+=========
+torch.distributed.elastic.rendezvous.dynamic_rendezvous.RendezvousBackend
+=========
+torch.nn.Hardtanh
+min_val:Any
+max_val:Any
+inplace:Any
+min_value:Any
+max_value:Any
+=========
+torch.Tensor.subtract_
+arg0:Any
+ alpha:Any
+=========
+torch.special.logit
+arg0:Any
+ eps:Any
+ out:Any
+=========
+torch.distributed.gather_object
+obj:Any
+object_gather_list:Any
+dst:Any
+group:Any
+=========
+torch.baddbmm
+arg0:Any
+arg1:Any
+arg2:Any
+ beta:Any
+ alpha:Any
+ out:Any
+=========
+torch.i0
+arg0:Any
+ out:Any
+=========
+torch.sum
+arg0:Any
+ dtype:Any
+=========
+torch.nn.LogSoftmax
+dim:Any
+=========
+torch.triu
+arg0:Any
+ diagonal:Any
+ out:Any
+=========
+torch.std
+arg0:Any
+arg1:Any
+arg2:Any
+ keepdim:Any
+ out:Any
+=========
+torch.Tensor.ravel
+=========
+torch.utils.data.ChainDataset
+args:Any
+kwds:Any
+=========
+torch.distributions.normal.Normal
+loc:Any
+scale:Any
+validate_args:Any
+=========
+torch.cholesky_solve
+arg0:Any
+arg1:Any
+ upper:Any
+ out:Any
+=========
+torch.Tensor.type
+dtype:Any
+ non_blocking:Any
+arg2:Any
+=========
+torch.broadcast_tensors
+tensors:Any
+=========
+torch.subtract
+arg0:Any
+arg1:Any
+ alpha:Any
+ out:Any
+=========
+torch.Tensor.bfloat16
+memory_format:Any
+=========
+torch.Tensor.unfold
+arg0:Any
+arg1:Any
+arg2:Any
+=========
+torch.Tensor.eq
+arg0:Any
+=========
+torch.Tensor.resize_
+arg0:Any
+ memory_format:Any
+=========
+torch.acos
+arg0:Any
+ out:Any
+=========
+torch.promote_types
+arg0:Any
+arg1:Any
+=========
+torch.Tensor.resize_as_
+arg0:Any
+ memory_format:Any
+=========
+torch.quantized_batch_norm
+arg0:Any
+ weight:Any
+ bias:Any
+arg3:Any
+arg4:Any
+arg5:Any
+arg6:Any
+arg7:Any
+=========
+torch.Tensor.frac
+=========
+torch.compiled_with_cxx11_abi
+=========
+torch.Tensor.less_equal_
+arg0:Any
+=========
+torch.nn.LazyConv3d
+out_channels:Any
+kernel_size:Any
+stride:Any
+padding:Any
+dilation:Any
+groups:Any
+bias:Any
+padding_mode:Any
+device:Any
+dtype:Any
+=========
+torch.nn.functional.rrelu_
+arg0:Any
+ lower:Any
+ upper:Any
+ training:Any
+=========
+torch.tril
+arg0:Any
+ diagonal:Any
+ out:Any
+=========
+torch.ceil
+arg0:Any
+ out:Any
+=========
+torch.searchsorted
+arg0:Any
+arg1:Any
+ out_int32:Any
+ right:Any
+ side:Any
+ out:Any
+ sorter:Any
+=========
+torch.is_storage
+obj:Any
+=========
+torch.Tensor.Alias for :meth:`~Tensor.dim
+=========
+torch.nn.FractionalMaxPool2d
+kernel_size:Any
+output_size:Any
+output_ratio:Any
+return_indices:Any
+_random_samples:Any
+=========
+torch.linalg.matrix_power
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.Tensor.erf
+=========
+torch.Tensor.cholesky_inverse
+upper:Any
+=========
+torch.transpose
+arg0:Any
+arg1:Any
+arg2:Any
+=========
+torch.distributed.elastic.multiprocessing.api.MultiprocessContext
+=========
+torch.Tensor.geqrf
+=========
+torch.Tensor.q_per_channel_zero_points
+=========
+torch.nn.init.calculate_gain
+nonlinearity:Any
+param:Any
+=========
+torch.distributions.transforms.ExpTransform
+cache_size:Any
+=========
+torch.Tensor.bitwise_or
+=========
+torch.fx.symbolic_trace
+root:Any
+concrete_args:Any
+=========
+torch.Tensor.polygamma
+arg0:Any
+=========
+torch.quasirandom.SobolEngine
+dimension:Any
+scramble:Any
+seed:Any
+=========
+torch.Tensor.index_fill_
+arg0:Any
+arg1:Any
+arg2:Any
+=========
+torch.Tensor.conj_physical_
+=========
+torch.nn.functional.prelu
+arg0:Any
+arg1:Any
+=========
+torch.Tensor.angle
+=========
+torch.Tensor.values
+=========
+torch.nn.functional.max_pool2d
+args:Any
+kwargs:Any
+=========
+torch.Tensor.triu
+diagonal:Any
+=========
+torch.polar
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.Tensor.stride
+arg0:Any
+=========
+torch.nn.CrossEntropyLoss
+weight:Any
+size_average:Any
+ignore_index:Any
+reduce:Any
+reduction:Any
+label_smoothing:Any
+=========
+torch.Tensor.asinh_
+=========
+torch.isposinf
+arg0:Any
+ out:Any
+=========
+torch.cumsum
+arg0:Any
+arg1:Any
+ dtype:Any
+ out:Any
+=========
+torch.distributed.elastic.timer.TimerServer
+=========
+torch.nn.ModuleList
+modules:Any
+=========
+torch.Tensor.le
+arg0:Any
+=========
+torch.Tensor.ceil
+=========
+torch.random.fork_rng
+devices:Any
+enabled:Any
+_caller:Any
+_devices_kw:Any
+=========
+torch.distributions.transforms.StackTransform
+tseq:Any
+dim:Any
+cache_size:Any
+=========
+torch.optim.lr_scheduler.ReduceLROnPlateau
+optimizer:Any
+mode:Any
+factor:Any
+patience:Any
+threshold:Any
+threshold_mode:Any
+cooldown:Any
+min_lr:Any
+eps:Any
+verbose:Any
+=========
+torch.nn.functional.triplet_margin_with_distance_loss
+anchor:Any
+positive:Any
+negative:Any
+distance_function:Any
+margin:Any
+swap:Any
+reduction:Any
+=========
+torch.arcsinh
+arg0:Any
+ out:Any
+=========
+torch.Tensor.cross
+arg0:Any
+ dim:Any
+=========
+torch.linalg.pinv
+arg0:Any
+ atol:Any
+ rtol:Any
+ hermitian:Any
+ out:Any
+=========
+torch.count_nonzero
+arg0:Any
+ dim:Any
+=========
+torch.rsqrt
+arg0:Any
+ out:Any
+=========
+torch.nn.LazyBatchNorm3d
+eps:Any
+momentum:Any
+affine:Any
+track_running_stats:Any
+device:Any
+dtype:Any
+=========
+torch.is_conj
+arg0:Any
+=========
+torch.Tensor.sum
+dim:Any
+ keepdim:Any
+ dtype:Any
+=========
+torch.optim.NAdam
+params:Any
+lr:Any
+betas:Any
+eps:Any
+weight_decay:Any
+momentum_decay:Any
+foreach:Any
+=========
+torch.Tensor.quantile
+arg0:Any
+ dim:Any
+ keepdim:Any
+ interpolation:Any
+=========
+torch.Tensor.map_
+arg0:Any
+arg1:Any
+=========
+torch.imag
+arg0:Any
+=========
+torch.nn.LazyConvTranspose2d
+out_channels:Any
+kernel_size:Any
+stride:Any
+padding:Any
+output_padding:Any
+groups:Any
+bias:Any
+dilation:Any
+padding_mode:Any
+device:Any
+dtype:Any
+=========
+torch.Tensor.sqrt_
+=========
+torch.nn.functional.mish
+input:Any
+inplace:Any
+=========
+torch.distributed.elastic.multiprocessing.errors.record
+=========
+torch.nn.init.zeros_
+tensor:Any
+=========
+torch.reciprocal
+arg0:Any
+ out:Any
+=========
+torch.Tensor.where
+arg0:Any
+arg1:Any
+=========
+torch.distributions.transforms.SoftmaxTransform
+cache_size:Any
+=========
+torch.get_rng_state
+=========
+torch.ger
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.lgamma
+arg0:Any
+ out:Any
+=========
+torch.polygamma
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.Tensor.sspaddmm
+arg0:Any
+arg1:Any
+ beta:Any
+ alpha:Any
+=========
+torch.special.sinc
+arg0:Any
+ out:Any
+=========
+torch.Tensor.is_meta
+=========
+torch.Tensor.arctanh
+=========
+torch.ones
+arg0:Any
+ out:Any
+ dtype:Any
+ layout:Any
+ device:Any
+ requires_grad:Any
+=========
+torch.Tensor.conj
+=========
+torch.linalg.solve
+arg0:Any
+arg1:Any
+ left:Any
+ out:Any
+=========
+torch.Tensor.log2_
+=========
+torch.Tensor.maximum
+arg0:Any
+=========
+torch.distributions.transforms.AffineTransform
+loc:Any
+scale:Any
+event_dim:Any
+cache_size:Any
+=========
+torch.nn.Softmax2d
+=========
+torch.utils.cpp_extension.BuildExtension
+=========
+torch.matmul
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.nn.utils.prune.RandomStructured
+=========
+torch.fft.rfft
+arg0:Any
+ n:Any
+ dim:Any
+ norm:Any
+ out:Any
+=========
+torch.Tensor.less_
+arg0:Any
+=========
+torch.fx.Interpreter
+module:Any
+garbage_collect_values:Any
+=========
+torch.Tensor.less
+arg0:Any
+=========
+torch.Tensor.log10
+=========
+torch.distributed.elastic.multiprocessing.api.RunProcsResult
+=========
+torch.Tensor.digamma
+=========
+torch.Tensor.bitwise_right_shift
+arg0:Any
+=========
+torch.Tensor.moveaxis
+arg0:Any
+arg1:Any
+=========
+torch.jit.ScriptFunction
+=========
+torch.special.erfc
+arg0:Any
+ out:Any
+=========
+torch.Tensor.greater
+arg0:Any
+=========
+torch.Tensor.chunk
+arg0:Any
+ dim:Any
+=========
+torch.Tensor.masked_select
+arg0:Any
+=========
+torch.randint
+low:Any
+arg1:Any
+arg2:Any
+arg3:Any
+ generator:Any
+ out:Any
+ dtype:Any
+ layout:Any
+ device:Any
+ requires_grad:Any
+=========
+torch.fft.irfftn
+arg0:Any
+ s:Any
+ dim:Any
+ norm:Any
+ out:Any
+=========
+torch.optim.lr_scheduler.ExponentialLR
+optimizer:Any
+gamma:Any
+last_epoch:Any
+verbose:Any
+=========
+torch.nn.functional.grid_sample
+input:Any
+grid:Any
+mode:Any
+padding_mode:Any
+align_corners:Any
+=========
+torch.Tensor.short
+memory_format:Any
+=========
+torch.distributed.elastic.multiprocessing.errors.ErrorHandler
+=========
+torch.nn.SyncBatchNorm
+num_features:Any
+eps:Any
+momentum:Any
+affine:Any
+track_running_stats:Any
+process_group:Any
+device:Any
+dtype:Any
+=========
+torch.greater_equal
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.nn.Hardswish
+inplace:Any
+=========
+torch.Tensor.logical_or_
+=========
+torch.nn.Softsign
+=========
+torch.Tensor.new_ones
+arg0:Any
+ dtype:Any
+ device:Any
+ requires_grad:Any
+=========
+torch.abs
+arg0:Any
+ out:Any
+=========
+torch.fake_quantize_per_tensor_affine
+arg0:Any
+arg1:Any
+arg2:Any
+arg3:Any
+arg4:Any
+=========
+torch.full
+arg0:Any
+arg1:Any
+ out:Any
+ dtype:Any
+ layout:Any
+ device:Any
+ requires_grad:Any
+=========
+torch.overrides.get_testing_overrides
+=========
+torch.Tensor.arctan_
+=========
+torch.Tensor.cholesky_solve
+arg0:Any
+ upper:Any
+=========
+torch.amin
+arg0:Any
+arg1:Any
+ keepdim:Any
+ out:Any
+=========
+torch.matrix_power
+arg0:Any
+arg1:Any
+ out:Any
+=========
+torch.optim.lr_scheduler.MultiplicativeLR
+optimizer:Any
+lr_lambda:Any
+last_epoch:Any
+verbose:Any
+=========
+torch.Tensor.diagflat
+offset:Any
+=========
+torch.nn.MaxUnpool1d
+kernel_size:Any
+stride:Any
+padding:Any
+=========

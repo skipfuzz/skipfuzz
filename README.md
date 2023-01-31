@@ -14,7 +14,9 @@ SkipFuzz applies active learning to fuzzing. It learns the possible input constr
 
 Together, the two benefits allow SkipFuzz to find a good number of crashes and vulnerabilities (over 150 crashes).
 
-The code for fuzzing tensorflow in in [tensorflow_fuzzer](tensorflow_fuzzer) and the code for fuzzing pytorch is in [pytorch_fuzzer](pytorch_fuzzer)
+
+The instructions and code for fuzzing tensorflow in in [tensorflow_fuzzer](tensorflow_fuzzer) and the code for fuzzing pytorch is in [pytorch_fuzzer](pytorch_fuzzer)
+
 
 
 Input properties

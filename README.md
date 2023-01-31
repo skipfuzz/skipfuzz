@@ -19,6 +19,8 @@ The instructions and code for fuzzing tensorflow in in [tensorflow_fuzzer](tenso
 
 
 
+
+
 Input properties
 =======================
 
@@ -59,7 +61,7 @@ List of CVEs
 
 
 
-
+(Note that while we have made our best attempt to stay anonymous for a double-blind review, a *dedicated* investigation of this repository may allow you to form links between resources on the internet that may provide hints to our identity.)
 
 
 

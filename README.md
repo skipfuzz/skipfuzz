@@ -35,12 +35,12 @@ SkipFuzz learns from invocations of different categories/classes of inputs to un
 List of CVEs
 ===========
 
-* CVE-2022-29204
-* CVE-2022-29202
-* CVE-2022-29213
-* CVE-2022-29193
-* CVE-2022-29207
-* CVE-2022-29205
+* [CVE-2022-29204](https://github.com/tensorflow/tensorflow/security/advisories/GHSA-hx9q-2mx4-m4pg)
+* [CVE-2022-29202](https://github.com/advisories/GHSA-cwpm-f78v-7m5c)
+* [CVE-2022-29213](https://github.com/advisories/GHSA-5889-7v45-q28m)
+* [CVE-2022-29193](https://github.com/advisories/GHSA-2p9q-h29j-3f5v)
+* [CVE-2022-29207](https://github.com/tensorflow/tensorflow/security/advisories/GHSA-5wpj-c6f7-24x8)
+* [CVE-2022-29205](https://github.com/tensorflow/tensorflow/security/advisories/GHSA-54ch-gjq5-4976)
 * CVE-2022-35934
 * CVE-2022-35935
 * CVE-2022-35960
@@ -60,8 +60,6 @@ List of CVEs
 * CVE-2022-35991
 
 
-
-(Note that while we have made our best attempt to stay anonymous for a double-blind review, a *dedicated* investigation of this repository may allow you to form links between resources on the internet that may provide hints to our identity.)
 
 
 
